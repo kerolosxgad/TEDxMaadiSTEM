@@ -159,9 +159,9 @@ h1 {
   color: #E62B1E;
 }
 
-#quote {
+.quote {
   white-space: nowrap;
-  text-align: left;
+  text-align: center;
   font-family: Domaine Display Narrow;
   font-style: normal;
   font-weight: bold;
@@ -169,6 +169,18 @@ h1 {
   color: #000000;
   letter-spacing: 0.3px;
 }
+
+.dq {
+  white-space: nowrap;
+  text-align: center;
+  font-family: Domaine Display Narrow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 129px;
+  color: #989898;
+  letter-spacing: 0.3px;
+}
+
 /* Please Edit Live Sass Setting Save Location to /sass/base/ */
 /*
     "liveSassCompile.settings.formats": [ {

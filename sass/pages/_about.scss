@@ -1,10 +1,22 @@
-#quote {
+
+.quote {
     white-space: nowrap;
-    text-align: left;
+    text-align: center;
     font-family: Domaine Display Narrow;
     font-style: normal;
     font-weight: bold;
     font-size: 65px;
     color: $black;
+    letter-spacing: 0.3px;
+}
+
+.dq {
+    white-space: nowrap;
+    text-align: center;
+    font-family: Domaine Display Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 129px;
+    color: $grey;
     letter-spacing: 0.3px;
 }
