@@ -2,24 +2,22 @@
 /*The Scss Configs File*/
 /*The Main Scss File*/
 .navbar {
-  background-color: #fff !important;
-    transition: .5s ease-in-out;
+  background: #fff !important;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 @media (max-width: 1199px) {
-    .navbar {
-        background: #000 !important;}
-    .nav-link{
-  color: #eee !important;
-}
-}
-
-.scrolled{
+  .navbar {
     background: #000 !important;
+  }
+  .nav-link {
+    color: #eee !important;
+  }
 }
 
-.scrolled .nav-link{
-  color: #eee !important;
+.scrolled {
+  background: #000 !important;
 }
 
 @media (max-width: 420px) {
@@ -29,14 +27,11 @@
   }
 }
 
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
-}
-
 .navbar .nav-link {
+  color: #eee;
   font-weight: bold;
   margin: 0 8px;
-  font-size: 14px;
+  font-size: 15px;
   text-transform: uppercase;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
@@ -160,5 +155,18 @@ h1 {
   color: #E62B1E;
 }
 
-/*Please Edit Live Sass Setting Save Location to /sass/base/*/
+h1 {
+  color: #E62B1E;
+}
+
+/* Please Edit Live Sass Setting Save Location to /sass/base/ */
+/*
+    "liveSassCompile.settings.formats": [ {
+        "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/sass/base/",
+    }
+
+    ],
+*/
 /*# sourceMappingURL=main.css.map */
