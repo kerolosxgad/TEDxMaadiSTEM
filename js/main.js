@@ -1,4 +1,5 @@
-// The Main JavaScript Files//
+// The Main JavaScript File//
+
 //Dynamic Year//
 var d = new Date();
 document.getElementById("demo").innerHTML = d.getUTCFullYear();
