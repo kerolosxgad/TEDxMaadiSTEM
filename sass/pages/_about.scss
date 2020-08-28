@@ -1,3 +1,10 @@
-h1{
-    color: $main-color;
+#quote {
+    white-space: nowrap;
+    text-align: left;
+    font-family: Domaine Display Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    color: $black;
+    letter-spacing: 0.3px;
 }

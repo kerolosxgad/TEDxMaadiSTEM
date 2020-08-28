@@ -159,6 +159,16 @@ h1 {
   color: #E62B1E;
 }
 
+#quote {
+  white-space: nowrap;
+  text-align: left;
+  font-family: Domaine Display Narrow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 65px;
+  color: #000000;
+  letter-spacing: 0.3px;
+}
 /* Please Edit Live Sass Setting Save Location to /sass/base/ */
 /*
     "liveSassCompile.settings.formats": [ {
