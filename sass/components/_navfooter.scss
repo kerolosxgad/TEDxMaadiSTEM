@@ -1,7 +1,19 @@
 /*The Main Scss File*/
 .navbar {
-    background-color: #fff !important;
+    background: #fff !important;
+    transition: .5s ease-in-out;
   }
+
+@media (max-width: 1199px) {
+    .navbar {
+        background: #000 !important;}
+    .nav-link{
+  color: #eee !important;
+}
+}
+.scrolled{
+    background: #000 !imortant;
+}
   
   @media (max-width: 420px) {
     .navbar-brand img{width: 200px !important; height: 52px !important;}
@@ -11,7 +23,7 @@
     color: #eee;
     font-weight: bold;
     margin: 0 8px;
-    font-size: 16px;
+    font-size: 15px;
     text-transform: uppercase;
     transition: 0.4s ease-in-out;
     font-family: sans-serif;
@@ -77,7 +89,7 @@
   
   footer img{height: 80px !important;}
   
-  footer hr{background-color: #aaa; margin-top: 1.5rem;}
+  footer hr{background-color: #aaa; margin-top: 1.8rem;}
   
   .rights{color: #aaa; margin-top: -5px; font-size: 13px;}
   
