@@ -164,12 +164,15 @@ h1 {
   text-align: center;
   font-family: Domaine Display Narrow;
   font-style: normal;
-  font-weight: bold;
   font-size: 50px;
   color: #000000;
   letter-spacing: 0.3px;
 }
-
+@media screen and (max-width: 600px) {
+  .quote {
+    font-size: 20px;
+  }
+}
 .dq {
   white-space: nowrap;
   text-align: center;
@@ -180,7 +183,11 @@ h1 {
   color: #989898;
   letter-spacing: 0.3px;
 }
-
+@media screen and (max-width: 600px) {
+  .dq {
+    font-size: 51.6px;
+  }
+}
 .swords {
   color: #FF2B06;
 }
@@ -196,6 +203,12 @@ h1 {
   color: rgba(225,225,225,1);
   letter-spacing: 0.3px;
 }
+@media screen and (max-width: 600px) {
+  .dq {
+    font-size: 18px;
+  }
+}
+
 /* Please Edit Live Sass Setting Save Location to /sass/base/ */
 /*
     "liveSassCompile.settings.formats": [ {
