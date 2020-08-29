@@ -61,17 +61,22 @@
     }
   }
   #About_TEDxYouthMaadiSTEM {
-    left: 495px;
-    top: 820px;
-    position: absolute;
-    overflow: visible;
-    width: 428px;
-    white-space: nowrap;
-    text-align: left;
+    position:relative; 
+    left: -60px;
+    text-align: center;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
     color: $black;
     text-transform: uppercase;
+  }
+  
+.dec_1 {
+  position:relative; 
+  right: -950px;
+}
+
+#dec_1 {
+  fill: #FF2B06;
 }
