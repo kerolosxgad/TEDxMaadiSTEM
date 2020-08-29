@@ -204,7 +204,7 @@ h1 {
   letter-spacing: 0.3px;
 }
 @media screen and (max-width: 600px) {
-  .dq {
+  #HenryFord {
     font-size: 18px;
   }
 }
