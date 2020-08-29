@@ -160,12 +160,12 @@ h1 {
 }
 
 .quote {
-  white-space: nowrap;
+  
   text-align: center;
   font-family: Domaine Display Narrow;
   font-style: normal;
   font-weight: bold;
-  font-size: 65px;
+  font-size: 50px;
   color: #000000;
   letter-spacing: 0.3px;
 }
@@ -173,7 +173,7 @@ h1 {
 .dq {
   white-space: nowrap;
   text-align: center;
-  font-family: Domaine Display Narrow;
+  font-family: Agency FB;
   font-style: normal;
   font-weight: bold;
   font-size: 129px;
@@ -183,6 +183,18 @@ h1 {
 
 .swords {
   color: #FF2B06;
+}
+
+#HenryFord {
+  top: 577px;
+  white-space: nowrap;
+  text-align: right;
+  font-family: Domaine Display Narrow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  color: rgba(225,225,225,1);
+  letter-spacing: 0.3px;
 }
 /* Please Edit Live Sass Setting Save Location to /sass/base/ */
 /*

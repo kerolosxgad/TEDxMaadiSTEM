@@ -1,19 +1,18 @@
 
 .quote {
-    white-space: nowrap;
     text-align: center;
     font-family: Domaine Display Narrow;
     font-style: normal;
     font-weight: bold;
-    font-size: 65px;
+    font-size: 50px;
     color: $black;
-    letter-spacing: 0.3px;
-}
+    letter-spacing: 0.2px;
+  }
 
 .dq {
     white-space: nowrap;
     text-align: center;
-    font-family: Domaine Display Narrow;
+    font-family: Agency FB;
     font-style: normal;
     font-weight: bold;
     font-size: 129px;
@@ -25,3 +24,15 @@
 
     color:$red
 }
+
+#HenryFord {
+    top: 577px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Domaine Display Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: rgba(225,225,225,1);
+    letter-spacing: 0.3px;
+  }
