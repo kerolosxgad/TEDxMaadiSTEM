@@ -59,9 +59,10 @@
 //TEDX_icon 
   @media screen and (max-width: 600px) {
     .TEDX_icon{
-      width: 120px;
+      width: 100px;
       height: 120px;
-  
+      position: relative;
+      left:20
     }
   }
 //about TEDx maadi header
@@ -84,10 +85,19 @@
     }
   }
 //rectangle
-.rectangle{
+#rectangle1 {
   position: relative;
- left: 80px;
+  left: 920px;
 }
+
+@media screen and (max-width: 600px) {
+   #rectangle1 {
+    position: relative;
+    left: 280px;
+    width: 60px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .dec_1 {
     position: relative;
@@ -193,4 +203,24 @@ figure {
 .img-fluid {
 max-width: 100%;
 height: auto;
+}
+#Our_team {
+  opacity: 0.056;
+  white-space: nowrap;
+  line-height: 104px;
+  margin-top: -10.5px;
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 83px;
+  color: $black;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  #Our_team {
+    font-size: 35px;
+  }
 }
