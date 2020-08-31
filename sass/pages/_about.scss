@@ -153,3 +153,17 @@
     font-size: 35px;
   }
 }
+#teamimg{
+  position: relative;
+  width: 110px;
+  height: 117px;
+  left: 700px;
+  top: -120px;
+ 
+}
+@media screen and (max-width: 600px) {
+  #teamimg {
+    left: 120px;
+    top: -20px;
+  }
+}
