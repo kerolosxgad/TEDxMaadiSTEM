@@ -333,9 +333,13 @@ h1 {
 }
 @media screen and (max-width: 600px) {
   #teamimg {
-    left: 120px;
-    top: -20px;
-  }
+    left: 0px;
+    top: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
 }
 #MEET_THE_TEAM {
   white-space: nowrap;
