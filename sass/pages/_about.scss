@@ -72,8 +72,9 @@
     text-transform: uppercase;
   }
   @media screen and (max-width: 600px) {
-    #About_TEDxYouthMaadiSTEM{
-      left:-20px
+    #About_TEDxYouthMaadiSTEM {
+      left: 18px;
+      font-size: 17px;
   
     }
   }
@@ -89,12 +90,14 @@
 
 #TEDx {
   opacity: 0.27;
-  left: -7000px;
+  left: 470px;
+  top: -120px;
+  position: relative;
+  overflow: visible;
   width: 771px;
   height: 183px;
   line-height: 24px;
-  margin-top: -120px;
-  overflow: visible;
+  margin-top: -2px;
   text-align: left;
   font-family: SF Compact;
   font-style: normal;
@@ -102,4 +105,12 @@
   font-size: 20px;
   color: $black;
   letter-spacing: 0.3px;
+}
+@media screen and (max-width: 600px) {
+  #TEDx{
+    left: 100px;
+    top: -120px;
+    
+
+  }
 }
