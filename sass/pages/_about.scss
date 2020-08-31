@@ -1,4 +1,4 @@
-
+//quote part
 .quote {
     text-align: center;
     font-family: Domaine Display Narrow;
@@ -35,7 +35,6 @@
 
     color:$red
 }
-
 #HenryFord {
     top: 577px;
     white-space: nowrap;
@@ -47,12 +46,12 @@
     color: rgba(225,225,225,1);
     letter-spacing: 0.3px;
   }
-
   @media screen and (max-width: 600px) {
     #HenryFord {
       font-size: 18px;
     }
   }
+//TEDX_icon 
   @media screen and (max-width: 600px) {
     .TEDX_icon{
       width: 120px;
@@ -60,6 +59,7 @@
   
     }
   }
+//about TEDx maadi header
   #About_TEDxYouthMaadiSTEM {
     position:relative; 
     left: -60px;
@@ -78,7 +78,7 @@
   
     }
   }
-  
+//rectangle
 .dec_1 {
   position:relative; 
   right: -950px;
@@ -97,7 +97,7 @@
   }
 }
 
-
+//TEDX paragraph
 #TEDx {
   opacity: 0.27;
   left: 470px;
