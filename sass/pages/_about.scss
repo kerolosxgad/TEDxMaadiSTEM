@@ -134,7 +134,7 @@
   left: 1050px;
   top: -125px;
   position: relative;
-  width: 530px;
+  width: 520px;
   line-height: 104px;
   margin-top: -10.5px;
   text-align: center;
@@ -145,4 +145,11 @@
   color: $black;
   letter-spacing: 0.3px;
   text-transform: uppercase;
+}
+@media screen and (max-width: 600px) {
+  #About_us {
+    left: -1px;
+    top: -28px;
+    font-size: 35px;
+  }
 }
