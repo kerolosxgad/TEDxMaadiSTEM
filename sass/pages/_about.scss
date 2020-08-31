@@ -54,7 +54,7 @@
   @media screen and (max-width: 600px) {
     #HenryFord {
       font-size: 18px;
-    }
+    } 
   }
 //TEDX_icon 
   @media screen and (max-width: 600px) {
@@ -223,4 +223,42 @@ height: auto;
   #Our_team {
     font-size: 35px;
   }
+}
+#rectangle2 {
+  overflow: visible;
+  position: relative;
+  width: 89px;
+  height: 6px;
+  left: 1300px;
+  top: -80px;
+}
+
+@media screen and (max-width: 600px) {
+  #rectangle2 {
+    position: relative;
+    left: 280px;
+    width: 60px;
+}
+}
+#CHAIRWOMEN {
+  left: -172px;
+  top:-80px;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: right;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: $black;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  #CHAIRWOMEN {
+    left: 20px;
+    top: -65px;
+    }
 }
