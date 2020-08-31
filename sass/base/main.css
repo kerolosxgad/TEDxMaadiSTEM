@@ -274,8 +274,12 @@ h1 {
 }
 @media screen and (max-width: 600px) {
   #TEDx{
-    left: 100px;
+    left: 22px;
     top: -120px;
+    width: 350px;
+    height: 250px;
+
+
     
 
   }
