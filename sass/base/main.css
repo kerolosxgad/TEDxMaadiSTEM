@@ -2,6 +2,7 @@
 /*The Scss Configs File*/
 /*The Main Scss File*/
 
+
 .navbar {
   background: #fff !important;
   -webkit-transition: .5s ease-in-out;
@@ -168,6 +169,11 @@ h1 {
   color: #E62B1E;
 }
 
+.aboutus{
+  width: auto!important; 
+  overflow-x: hidden!important 
+
+}
 
 .quote {
   text-align: center;
@@ -265,8 +271,8 @@ h1 {
 
 #TEDx {
   opacity: 0.27;
-  left: 470px;
-  top: -120px;
+  left: 80px;
+  top: 20px;
   position: relative;
   overflow: visible;
   width: 771px;
@@ -283,8 +289,8 @@ h1 {
 }
 @media screen and (max-width: 600px) {
   #TEDx{
-    left: 20px;
-    top: -120px;
+    left: 13px;
+    top: -1px;
     width: 300px;
     height: 300px;
 
@@ -295,10 +301,9 @@ h1 {
 }
 #About_us {
   opacity: 0.056;
-  left: 1050px;
-  top: -125px;
+  left: 550px;
+  top: 90px;
   position: relative;
-  width: 520px;
   line-height: 104px;
   margin-top: -10.5px;
   text-align: center;
@@ -312,9 +317,10 @@ h1 {
 }
 @media screen and (max-width: 600px) {
   #About_us {
-    left: -1px;
-    top: -28px;
+    left: 60px;
+    top: 130px;
     font-size: 35px;
+    width: 260px;
   }
 }
 #teamimg{

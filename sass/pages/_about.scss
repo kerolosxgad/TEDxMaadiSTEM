@@ -1,4 +1,9 @@
 //quote part
+.aboutus{
+  width: auto!important; 
+  overflow-x: hidden!important 
+
+}
 .quote {
     text-align: center;
     font-family: Domaine Display Narrow;
@@ -79,15 +84,10 @@
     }
   }
 //rectangle
-.dec_1 {
-  position:relative; 
-  right: -950px;
+.rectangle{
+  position: relative;
+ left: 80px;
 }
-
-.dec_1 {
-  fill: #FF2B06;
-}
-
 @media screen and (max-width: 600px) {
   .dec_1 {
     position: relative;
@@ -100,8 +100,8 @@
 //TEDX paragraph
 #TEDx {
   opacity: 0.27;
-  left: 470px;
-  top: -120px;
+  left: 80px;
+  top: 20px;
   position: relative;
   overflow: visible;
   width: 771px;
@@ -113,13 +113,13 @@
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  color: $black;
+  color: rgba(0,0,0,1);
   letter-spacing: 0.3px;
 }
 @media screen and (max-width: 600px) {
   #TEDx{
-    left: 20px;
-    top: -120px;
+    left: 13px;
+    top: -1px;
     width: 300px;
     height: 300px;
 
@@ -128,13 +128,11 @@
 
   }
 }
-//about us banner
 #About_us {
   opacity: 0.056;
-  left: 1050px;
-  top: -125px;
+  left: 550px;
+  top: 90px;
   position: relative;
-  width: 520px;
   line-height: 104px;
   margin-top: -10.5px;
   text-align: center;
@@ -142,16 +140,9 @@
   font-style: normal;
   font-weight: bold;
   font-size: 83px;
-  color: $black;
+  color: #$black;
   letter-spacing: 0.3px;
   text-transform: uppercase;
-}
-@media screen and (max-width: 600px) {
-  #About_us {
-    left: -1px;
-    top: -28px;
-    font-size: 35px;
-  }
 }
 #teamimg{
   position: relative;
@@ -185,4 +176,12 @@
     left: 8px;
     top: -30px;
   }
+}
+
+figure {
+  margin: 16px 40px !important; 
+}
+.img-fluid {
+max-width: 100%;
+height: auto;
 }
