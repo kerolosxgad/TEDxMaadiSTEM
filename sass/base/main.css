@@ -1,8 +1,6 @@
 /*The Main Scss File*/
 /*The Scss Configs File*/
 /*The Main Scss File*/
-
-
 .navbar {
   background: #fff !important;
   -webkit-transition: .5s ease-in-out;
@@ -22,6 +20,10 @@
   background: #000 !important;
 }
 
+.scrolled .nav-link {
+  color: #eee !important;
+}
+
 @media (max-width: 420px) {
   .navbar-brand img {
     width: 200px !important;
@@ -39,10 +41,6 @@
   transition: 0.4s ease-in-out;
   font-family: sans-serif;
   letter-spacing: 1px;
-}
-
-.scrolled .nav-link{
-  color: #eee !important;
 }
 
 .navbar .nav-link:after {
@@ -81,7 +79,7 @@
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
 }
 
 /*start footer section*/
@@ -157,18 +155,6 @@ h1 {
   color: #E62B1E;
 }
 
-h1 {
-  color: #E62B1E;
-}
-
-h1 {
-  color: #E62B1E;
-}
-
-h1 {
-  color: #E62B1E;
-}
-
 .aboutus {
   width: auto !important;
   overflow-x: hidden !important;
@@ -188,6 +174,7 @@ h1 {
     font-size: 20px;
   }
 }
+
 .dq {
   white-space: nowrap;
   text-align: center;
@@ -204,6 +191,7 @@ h1 {
     font-size: 51.6px;
   }
 }
+
 .swords {
   color: #FF2B06;
 }
@@ -225,6 +213,7 @@ h1 {
     font-size: 18px;
   }
 }
+
 @media screen and (max-width: 600px) {
   .TEDX_icon {
     width: 100px;
@@ -233,6 +222,7 @@ h1 {
     left: 20;
   }
 }
+
 #About_TEDxYouthMaadiSTEM {
   position: relative;
   left: -60px;
@@ -251,6 +241,7 @@ h1 {
     font-size: 17px;
   }
 }
+
 #rectangle1 {
   position: relative;
   left: 920px;
@@ -263,6 +254,7 @@ h1 {
     width: 60px;
   }
 }
+
 @media screen and (max-width: 600px) {
   .dec_1 {
     position: relative;
@@ -270,6 +262,7 @@ h1 {
     font-size: 17px;
   }
 }
+
 #TEDx {
   opacity: 0.27;
   left: 80px;
@@ -297,6 +290,7 @@ h1 {
     height: 300px;
   }
 }
+
 #About_us {
   opacity: 0.056;
   top: 90px;
@@ -319,6 +313,7 @@ h1 {
     font-size: 35px;
   }
 }
+
 #teamimg {
   position: relative;
   width: 110px;
@@ -337,6 +332,7 @@ h1 {
     width: 50%;
   }
 }
+
 #MEET_THE_TEAM {
   white-space: nowrap;
   text-align: center;
@@ -356,6 +352,7 @@ h1 {
     top: -30px;
   }
 }
+
 figure {
   margin: 16px 40px !important;
 }
@@ -385,6 +382,7 @@ figure {
     font-size: 35px;
   }
 }
+
 #rectangle2 {
   overflow: visible;
   position: relative;
@@ -401,6 +399,7 @@ figure {
     width: 60px;
   }
 }
+
 #CHAIRWOMEN {
   left: -172px;
   top: -80px;
@@ -423,6 +422,112 @@ figure {
     top: -65px;
   }
 }
+
+.general-container {
+  height: 500px;
+  margin-top: 100px;
+}
+
+.general-container #genres {
+  font-size: 12px;
+}
+
+.general-container .small-article-container {
+  width: 50%;
+}
+
+.general-container .small-article-container .button-header-article-main {
+  margin-top: 3px;
+  color: #989898;
+  padding: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 12px;
+  background-color: white;
+  margin-left: 15px;
+  border-radius: 10px;
+  border: solid #989898 1.5px;
+  -webkit-transition: ease all 0.2s;
+  transition: ease all 0.2s;
+}
+
+.general-container .small-article-container .button-header-article-main:hover {
+  background-color: #FF2B06;
+  color: white;
+  -webkit-box-shadow: 0px 3px 20px 4px rgba(255, 43, 6, 0.32);
+  box-shadow: 0px 3px 20px 4px rgba(255, 43, 6, 0.32);
+  border-color: #FF2B06;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.general-container .small-article-container .button-header-article {
+  margin-top: 2px;
+  color: #989898;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 10px;
+  margin-left: 15px;
+  border-radius: 10px;
+  background-color: white;
+  border: solid #989898 1.5px;
+  -webkit-transition: ease all 0.2s;
+  transition: ease all 0.2s;
+}
+
+.general-container .small-article-container .button-header-article:hover {
+  color: #000000;
+  border-color: #000000;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.general-container .main-text-container {
+  width: 50%;
+}
+
+.general-container .main-text-container .main-text-article {
+  margin-top: 10px;
+  font-size: 60px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  line-height: 1;
+}
+
+.general-container .main-text-container .main-text-article span {
+  color: #FF2B06;
+}
+
+.general-container .main-article-content .main-article-content-header {
+  width: 30%;
+  font-size: 13px;
+}
+
+.general-container .main-article-content .main-article-content-header .author-article {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 14px;
+  margin-right: 13px;
+}
+
+.general-container .main-article-content .main-article-content-header .article-circle-small {
+  width: 5px;
+  margin-right: 10px;
+  margin: 3px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: black;
+  display: block;
+}
+
+h1 {
+  color: #E62B1E;
+}
+
 /* Please Edit Live Sass Setting Save Location to /sass/base/ */
 /*
     "liveSassCompile.settings.formats": [ {
@@ -430,7 +535,7 @@ figure {
             "extensionName": ".css",
             "savePath": "/sass/base/",
     }
-
+ 
     ],
 */
 /*# sourceMappingURL=main.css.map */
