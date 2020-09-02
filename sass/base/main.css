@@ -309,7 +309,7 @@ h1 {
 
 @media screen and (max-width: 600px) {
   #About_us {
-    top: 130px;
+    top: 180px;
     font-size: 35px;
   }
 }
@@ -388,8 +388,8 @@ figure {
   position: relative;
   width: 89px;
   height: 6px;
-  left: 1300px;
-  top: -80px;
+  left:  -187px;
+  top: -85px;
 }
 
 @media screen and (max-width: 600px) {
