@@ -395,7 +395,7 @@ figure {
 @media screen and (max-width: 600px) {
   #rectangle2 {
     position: relative;
-    left: 280px;
+    left: 0px;
     width: 60px;
   }
 }
