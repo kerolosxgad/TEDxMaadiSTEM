@@ -17,11 +17,11 @@
     <!--The begin of the body-->
     
     <!-- start nav bar  -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
         <div class="container">
 
             <a class="navbar-brand text-uppercase" href="index.html">
-                <img src="images/TEDxLogoLight.png" width="270" height="70" class="d-inline-block align-top" alt=""
+                <img id="navbar-logo" src="images/TEDxLogoLight.png" width="270" height="70" class="d-inline-block align-top" alt=""
                     loading="lazy">
             </a>
 
@@ -68,10 +68,11 @@
     <!--end TEDx icon-->
     <!--start about TEDxMaadi pargraph-->
     <div class="container-fluid">
-    <div id="About_TEDxYouthMaadiSTEM">
-        <span style="text-transform:uppercase;">About</span><span> TEDxYouth@MaadiSTEM</span>
-    </div>
+        <div id="About_TEDxYouthMaadiSTEM">
+            <span style="text-transform:uppercase;">About</span><span> TEDxYouth@MaadiSTEM</span>
+        </div>
       <img src="./images/dec 1.png" alt="rectangle"  id="rectangle1">
+    </div>
     <div id="TEDx" class="container-fluid">
         <p class="TEDx ">In the spirit of ideas worth spreading, TEDxYouth@MaadiSTEM started in June 2019 by a bunch of inspired rising seniors to provide an opportunity for locals to experience TED-like events and bring together enthusiastic individuals who seek to uncover and share new ideas that spark conversations in our community. Through TEDxYouth@MaadiSTEM, we aspire to foster learning, inspiration, and wonder as well as provoke conversations and ideas that matter.</p>
     </div>
@@ -100,41 +101,50 @@
     <img src="./images/dec 1.png" alt="rectangle" class="rounded float-right"  id="rectangle2">
     <div id="CHAIRWOMEN" class="container-fluid">CHAIRWOMEN</div>
 
-
-
     <!--start footer section-->
     <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-6">
-                    <figure>
-                        <img class="img-fluid" src="./images/TEDxLogo.png" alt="">
-                    </figure>
-                </div>                <div class="col-md-1 text-center">
-                    <ul>
-                        <li><a href="https://www.facebook.com/TEDxYouthMaadiSTEM/"><i class="fab fa-fw fa-facebook-square"></i></a></li>
-                        <li><a href="https://instagram.com/tedx_youthmaadistem?igshid=1hhaqgwdnuce9"><i class="fab fa-fw fa-instagram"></i></a></li>
-                        <li><a href="mailto:tedx.maadistem@gmail.com"><i class="fas fa-fw fa-envelope-open"></i></a></li>
-                    </ul>
-                </div>
-                <div class="col-md-7 text-center">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">Our Team</a></li>
-                        <li><a href="articles.html">Articles</a></li>
-                        <li><a href="contact.html">Contact US</a></li>
-                    </ul>
-                    <hr>
-                    <div class="rights">
-                        &copy; <span id="demo"></span> All Rights Reserved | TEDxMaadiSTEM
-                      </div>
-                </div>
-
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/TEDxLogo.png" class="img-fluid" />
             </div>
-
+            <div class="col-md-1 text-center">
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/TEDxYouthMaadiSTEM/"
+                    ><i class="fab fa-fw fa-facebook-square"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://instagram.com/tedx_youthmaadistem?igshid=1hhaqgwdnuce9"
+                    ><i class="fab fa-fw fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="mailto:tedx.maadistem@gmail.com"
+                    ><i class="fas fa-fw fa-envelope-open"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-7 text-center">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Our Team</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="contact.html">Contact US</a></li>
+              </ul>
+              <hr />
+              <div class="rights">
+                &copy; <span id="demo"></span> All Rights Reserved | TEDxMaadiSTEM
+              </div>
+            </div>
           </div>
+        </div>
       </footer>
       <!-- end footer -->
+
 
     <!--JavaScript Files-->
     <script src="js/main.js"></script>
