@@ -395,6 +395,7 @@ figure {
 @media screen and (max-width: 600px) {
   #rectangle2 {
     position: relative;
+    left: 280px;
     left: -10px;
     width: 60px;
   }
@@ -549,7 +550,7 @@ body {
 }
 
 .form label {
-  font-weight: 750;
+  font-weight: 500;
 }
 
 .form-title {
@@ -562,15 +563,31 @@ input[type="text"] {
   border-top: 0;
   border-left: 0;
   border-right: 0;
+  font-weight: 200;
   width: 450px;
-  padding: 4px 10px;
+  padding: 4px 20px;
+  border-color: #bdbdbd;
+}
+
+input[placeholder] {
+  color: #bdbdbd;
+}
+
+.fa-envelope, .fa-user, .fa-align-left {
+  position: absolute;
+  margin-top: 10px;
+  color: #bdbdbd;
 }
 
 input:focus {
-  color: red;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
+  color: #FF2B06;
+  font-weight: 700;
+  outline: none;
+  border-color: #FF2B06;
+}
+
+.fa-envelope, .fa-user, .fa-align-left {
+  color: #bdbdbd !important;
 }
 
 .contact-pic {
