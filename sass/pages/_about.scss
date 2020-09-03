@@ -158,14 +158,19 @@
     top: 180px;
     font-size: 35px;
   }
-}
-#teamimg{
-  position: relative;
+}#teamimg {
+  position: absolute;
   width: 110px;
   height: 100px;
-  left: 700px;
-  top: -120px;
- 
+  left: 757px;
+  top: 950px;
+}
+#teamimg {
+  position: absolute;
+  width: 160px;
+  height: 150px;
+  left: 757px;
+  top: 950px;
 }
 @media screen and (max-width: 600px) {
   #teamimg {
@@ -366,10 +371,86 @@ height: auto;
   position: relative;
   top: -782px;
   left: 500px;
-  
+   
 }
 #Yasmin_CW{
   position: relative;
   top:-1260px;
   left: 1040px;
+}
+
+.comm {
+  position: absolute;
+  left:92px;
+  line-height: 25px;
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(0,0,0,1);
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.projectManagment {
+  position: absolute;
+  top: 2200px;
+  left: 80px;
+}
+
+.PMIMG {
+  position: absolute;
+  top: -20px;
+}
+
+#Mostafa_PM {
+  position: absolute;
+  top: 2200px;
+}
+
+#Rokaya_PM {
+  position: absolute;
+  top: 2200px;
+  left: 680px;
+}
+
+.BrandingSection {
+  position: absolute;
+  top: 3000px;
+  left: 500px;
+}
+
+.BSIMG{
+  position: absolute;
+  top: 40px;
+  left: 450px;
+  width:120px
+}
+
+.BrandingL{
+  font-size: 35px;
+}
+
+#Tasnim_BS{
+  position: absolute;
+  top: 3000px;
+  left: 480px;
+    
+}
+
+.CW {
+  position: absolute;
+  top: 3700px;
+  left: 80px;
+}
+
+.CWL{
+  font-size: 15px;
+
+}
+
+.CWIMG{
+  position: absolute;
+  top:-15px;
 }
