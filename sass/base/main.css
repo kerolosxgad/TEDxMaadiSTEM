@@ -156,7 +156,7 @@ h1 {
 }
 
 .aboutus {
-  width: auto !important;
+  width: 100%;
   overflow-x: hidden !important;
 }
 
@@ -617,6 +617,83 @@ figure {
 .CWIMG {
   position: absolute;
   top: -15px;
+}
+
+#Gasser-CW {
+  position: absolute;
+  top: 3700px;
+  left: -30px;
+}
+
+.CWimg {
+  position: absolute;
+  width: 500px;
+}
+
+.CW_name {
+  position: absolute;
+  top: 400px;
+  left: 150px;
+}
+
+#role-small {
+  position: absolute;
+  opacity: 0.269;
+  left: 220px;
+  top: 470px;
+  overflow: visible;
+  width: 107px;
+  white-space: nowrap;
+  line-height: 25px;
+  margin-top: -5px;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  letter-spacing: 0.3px;
+}
+
+#name-small {
+  position: absolute;
+  left: 180px;
+  top: 430px;
+  overflow: visible;
+  width: 209px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  color: black;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+#Omar-CW {
+  position: absolute;
+  top: 3700px;
+  left: 400px;
+}
+
+.DSIMG {
+  position: absolute;
+  top: 4500px;
+}
+
+.DSL {
+  position: absolute;
+  top: 4460px;
+  left: -30px;
+  font-size: 15px;
+}
+
+.Desgin {
+  position: absolute;
+  left: 1200px;
+  top: -760px;
 }
 
 .general-container {
