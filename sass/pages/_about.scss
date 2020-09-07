@@ -1,4 +1,9 @@
 //quote part
+.aboutus{
+  width: 100%; 
+  overflow-x: hidden!important 
+
+}
 .quote {
     text-align: center;
     font-family: Domaine Display Narrow;
@@ -49,14 +54,15 @@
   @media screen and (max-width: 600px) {
     #HenryFord {
       font-size: 18px;
-    }
+    } 
   }
 //TEDX_icon 
   @media screen and (max-width: 600px) {
     .TEDX_icon{
-      width: 120px;
+      width: 100px;
       height: 120px;
-  
+      position: relative;
+      left:20
     }
   }
 //about TEDx maadi header
@@ -79,13 +85,17 @@
     }
   }
 //rectangle
-.dec_1 {
-  position:relative; 
-  right: -950px;
+#rectangle1 {
+  position: relative;
+  left: 920px;
 }
 
-.dec_1 {
-  fill: #FF2B06;
+@media screen and (max-width: 600px) {
+   #rectangle1 {
+    position: relative;
+    left: 280px;
+    width: 60px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -100,8 +110,8 @@
 //TEDX paragraph
 #TEDx {
   opacity: 0.27;
-  left: 470px;
-  top: -120px;
+  left: 80px;
+  top: 20px;
   position: relative;
   overflow: visible;
   width: 771px;
@@ -113,13 +123,13 @@
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  color: $black;
+  color: rgba(0,0,0,1);
   letter-spacing: 0.3px;
 }
 @media screen and (max-width: 600px) {
   #TEDx{
-    left: 20px;
-    top: -120px;
+    left: 13px;
+    top: -1px;
     width: 300px;
     height: 300px;
 
@@ -128,16 +138,13 @@
 
   }
 }
-//about us banner
 #About_us {
   opacity: 0.056;
-  left: 1050px;
-  top: -125px;
+  top: 90px;
   position: relative;
-  width: 520px;
   line-height: 104px;
   margin-top: -10.5px;
-  text-align: center;
+  text-align: right;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -148,24 +155,32 @@
 }
 @media screen and (max-width: 600px) {
   #About_us {
-    left: -1px;
-    top: -28px;
+    top: 180px;
     font-size: 35px;
   }
-}
-#teamimg{
-  position: relative;
+}#teamimg {
+  position: absolute;
   width: 110px;
   height: 100px;
-  left: 700px;
-  top: -120px;
- 
+  left: 757px;
+  top: 950px;
+}
+#teamimg {
+  position: absolute;
+  width: 160px;
+  height: 150px;
+  left: 757px;
+  top: 950px;
 }
 @media screen and (max-width: 600px) {
   #teamimg {
-    left: 120px;
-    top: -20px;
-  }
+    left: 0px;
+    top: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
 }
 #MEET_THE_TEAM {
   white-space: nowrap;
@@ -185,4 +200,459 @@
     left: 8px;
     top: -30px;
   }
+}
+
+figure {
+  margin: 16px 40px !important; 
+}
+.img-fluid {
+max-width: 100%;
+height: auto;
+}
+#Our_team {
+  opacity: 0.056;
+  white-space: nowrap;
+  line-height: 104px;
+  margin-top: -10.5px;
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 83px;
+  color: $black;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  #Our_team {
+    font-size: 35px;
+  }
+}
+#rectangle2 {
+  overflow: visible;
+  position: relative;
+  width: 89px;
+  height: 6px;
+  left: -187px;
+  top: -85px;
+}
+
+@media screen and (max-width: 600px) {
+  #rectangle2 {
+    position: relative;
+    left: 280px;
+    left: -10px;
+    width: 60px;
+  }
+}
+#CHAIRWOMEN {
+  left: -172px;
+  top:-80px;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: right;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: $black;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  #CHAIRWOMEN {
+    left: 20px;
+    top: -65px;
+    }
+}
+
+.Member {
+  position: relative;
+  width: 393px;
+  height: 482px;
+  left: 213px;
+  top: 1476px;
+  overflow: visible;
+}
+
+#Dina_Solitah_-_Chairwoman {
+  filter: drop-shadow(0px 11px 66px rgba(0, 0, 0, 0.2));
+  width: 393px;
+  height: 429px;
+  left: 0px;
+  top: px;
+  overflow: visible;
+  position: relative;
+}
+
+.W_mask_fj {
+  position: relative;
+  overflow: visible;
+  width: 393px;
+  height: 430px;
+  left: 0px;
+  top: 0px;
+}
+
+#W_mask_fj {
+  opacity: 0;
+  fill: url(#W_mask_fj);
+}
+
+.Name_Tag {
+  position: absolute;
+  filter: drop-shadow(0px 3px 56px rgba(0, 0, 0, 0.161));
+  overflow: visible;
+  width: 480px;
+  height: 275px;
+  left: 155px;
+  top: 500px ;
+}
+
+#Name_Tag {
+  fill: rgba(255,255,255,1);
+}
+
+#role {
+  position: absolute;
+  opacity: 0.269;
+  left: 260px;
+  top: 570px;
+  overflow: visible;
+  width: 107px;
+  white-space: nowrap;
+  line-height: 25px;
+  margin-top: -5px;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgba(0,0,0,1);
+  letter-spacing: 0.3px;
+}
+
+#name {
+  position: absolute;
+  left: 210px;
+  top: 520px;
+  overflow: visible;
+  width: 209px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: rgba(0,0,0,1);
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.dec_3 {
+  position: relative;
+  overflow: visible;
+  width: 89px;
+  height: 6px;
+  left: 153px;
+  top: 464px;
+}
+
+#DINA_CW{
+  position: relative;
+  top: 0px;
+  margin-bottom: 300px;
+  left: -40px;
+}
+#SHAHD_CW{
+  position: relative;
+  top: -782px;
+  left: 500px;
+   
+}
+#Yasmin_CW{
+  position: relative;
+  top:-1260px;
+  left: 1040px;
+}
+
+.comm {
+  position: absolute;
+  left:92px;
+  line-height: 25px;
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(0,0,0,1);
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.projectManagment {
+  position: absolute;
+  top: 2200px;
+  left: 80px;
+}
+
+.PMIMG {
+  position: absolute;
+  top: -20px;
+}
+
+#Mostafa_PM {
+  position: absolute;
+  top: 2200px;
+}
+
+#Rokaya_PM {
+  position: absolute;
+  top: 2200px;
+  left: 680px;
+}
+
+.BrandingSection {
+  position: absolute;
+  top: 3000px;
+  left: 500px;
+}
+
+.BSIMG{
+  position: absolute;
+  top: 40px;
+  left: 450px;
+  width:120px
+}
+
+.BrandingL{
+  font-size: 35px;
+}
+
+#Tasnim_BS{
+  position: absolute;
+  top: 3000px;
+  left: 480px;
+    
+}
+
+.CW {
+  position: absolute;
+  top: 3700px;
+  left: 80px;
+}
+
+.CWL{
+  font-size: 15px;
+
+}
+
+.CWIMG{
+  position: absolute;
+  top:-15px;
+}
+
+#Gasser-CW {
+  position: absolute;
+  top: 3700px;
+  left: -70px;
+}
+.CWimg{
+  position: absolute;
+  width: 500px;
+}
+
+.CW_name{
+  position: absolute;
+  top:400px;
+  left: 150px;
+}
+#role-small{
+  position: absolute;
+  opacity: 0.269;
+  left: 220px;
+  top: 470px;
+  overflow: visible;
+  width: 107px;
+  white-space: nowrap;
+  line-height: 25px;
+  margin-top: -5px;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgba(0,0,0,1);
+  letter-spacing: 0.3px;
+
+}
+#name-small{
+  position: absolute;
+  left: 180px;
+  top: 430px;
+  overflow: visible;
+  width: 209px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  color: rgba(0,0,0,1);
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+#Omar-CW {
+  position: absolute;
+  top: 3700px;
+  left: 310px;
+}
+
+.DSIMG{
+  position: absolute;
+  top: 4500px;
+}
+
+.DSL {
+  position: absolute;
+  top: 4460px;
+  left: -180px;
+  font-size: 15px;
+}
+
+.Desgin{
+  position: absolute;
+  left: 1200px;
+  top: -760px;
+}
+
+#Mariam-MA {
+  position: absolute;
+  top: 3700px;
+  left: 700px;
+}
+
+#Menna-MA{
+  position: absolute;
+  top: 3700px;
+  left: 1090px;
+}
+
+
+
+.UXL {
+  position: absolute;
+  top: 4460px;
+  left: 5px;
+  font-size: 15px;
+}
+.UXIMG {
+  position: absolute;
+  top: 4490px;
+  left: 190px;
+}
+
+.UX {
+  position: absolute;
+  top: -180px;
+  left: 120px;
+}
+
+#Omar-UX {
+  position: absolute;
+  top: 4300px;
+  left: -30px;
+}
+
+.DEL{
+  position: absolute;
+  top:5400px;
+}
+
+.DEIMG {
+  position: absolute;
+  top: 5430px;
+  left: 273px;
+}
+
+.DE {
+  position: absolute;
+  top: -1120px;
+  left: 730px;
+}
+
+#Fikry-DE {
+  position: absolute;
+  top: 4300px;
+  left: 500px;
+}
+
+#Afifi-DE{
+  position: absolute;
+  top: 4300px;
+  left:1020px
+}
+
+.ITL{
+  position: absolute;
+  top: 5417px;
+
+}
+
+.ITIMG {
+  position: absolute;
+  top: 5453px;
+  left: 220px;
+}
+
+.IT {
+  position: absolute;
+  top: -500px;
+}
+
+#Kirolos-IT {
+  position: absolute;
+  top: 4950px;
+  left: -75px;
+}
+
+#Fady-IT {
+  position: absolute;
+  top: 4950px;
+  left: 320px;
+}
+
+.VEL {
+  font-size: 16px;
+  position: absolute;
+  top: 5472px;
+  left: 100px;
+}
+
+.VEIMG{
+  position: absolute;
+  top: 5502px;
+  left: 5px;
+}
+
+.VE {
+  position: absolute;
+  top: -550px;
+  left: 933px;
+}
+
+#Loay-VE {
+  position: absolute;
+  top: 4950px;
+  left: 714px;
+}
+
+#Deena-VE{
+  position: absolute;
+  top: 4950px;
+  left: 1106px;
 }
