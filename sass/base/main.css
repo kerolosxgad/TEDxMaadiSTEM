@@ -226,6 +226,9 @@ h1 {
 @media screen and (max-width: 600px) {
   #HenryFord {
     font-size: 18px;
+    position: absolute;
+    top: 263px;
+    left: 231px;
   }
 }
 
