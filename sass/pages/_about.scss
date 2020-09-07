@@ -100,12 +100,12 @@
 }  
 
 @media screen and (max-width: 600px) {
-    #About_TEDxYouthMaadiSTEM {
-      left: 18px;
-      top: 50px;
-      font-size: 17px;
-  
-    }
+  #About_TEDxYouthMaadiSTEM {
+    left: 16px;
+    top: 447px;
+    font-size: 17px;
+    position: absolute;
+}
   }
 //rectangle
 #rectangle1 {
@@ -114,11 +114,12 @@
 }
 
 @media screen and (max-width: 600px) {
-   #rectangle1 {
-    position: relative;
-    left: 280px;
-    width: 60px;
-  }
+  #rectangle1 {
+    position: absolute;
+    top: 481px;
+    /* width: 60px; */
+    left: 233px;
+}
 }
 
 @media screen and (max-width: 600px) {
@@ -151,16 +152,12 @@
 }
 
 @media screen and (max-width: 600px) {
-  #TEDx{
-    left: 13px;
-    top: -1px;
+  #TEDx {
+    left: 39px;
+    top: 521px;
     width: 300px;
     height: 300px;
-
-
-    
-
-  }
+}
 }
 #About_us {
   opacity: 0.056;
@@ -180,9 +177,12 @@
 }
 @media screen and (max-width: 600px) {
   #About_us {
-    top: 180px;
+    top: 312px;
+    left: 140px;
     font-size: 35px;
-  }
+    width: 200px;
+    position: absolute;
+}
 }#teamimg {
   position: absolute;
   width: 110px;
@@ -199,13 +199,14 @@
 }
 @media screen and (max-width: 600px) {
   #teamimg {
-    left: 0px;
-    top: 0px;
+    left: 92px;
+    top: 991px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    }
+    position: absolute;
+}
 }
 
 #MEET_THE_TEAM {
@@ -224,9 +225,10 @@
 
 @media screen and (max-width: 600px) {
   #MEET_THE_TEAM {
-    left: 8px;
-    top: -30px;
-  }
+    left: 73px;
+    top: 1130px;
+    position: absolute;
+}
 }
 
 figure {
@@ -393,6 +395,15 @@ height: auto;
   top: 0px;
   margin-bottom: 300px;
   left: -40px;
+}
+
+@media screen and (max-width: 600px) {
+  #DINA_CW {
+    left: 39px;
+    top: 521px;
+    width: 300px;
+    height: 300px;
+}
 }
 #SHAHD_CW{
   position: relative;
