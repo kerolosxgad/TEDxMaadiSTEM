@@ -622,7 +622,7 @@ figure {
 #Gasser-CW {
   position: absolute;
   top: 3700px;
-  left: -30px;
+  left: -70px;
 }
 
 .CWimg {
@@ -675,7 +675,7 @@ figure {
 #Omar-CW {
   position: absolute;
   top: 3700px;
-  left: 400px;
+  left: 310px;
 }
 
 .DSIMG {
@@ -686,7 +686,7 @@ figure {
 .DSL {
   position: absolute;
   top: 4460px;
-  left: -30px;
+  left: -180px;
   font-size: 15px;
 }
 
@@ -694,6 +694,131 @@ figure {
   position: absolute;
   left: 1200px;
   top: -760px;
+}
+
+#Mariam-MA {
+  position: absolute;
+  top: 3700px;
+  left: 700px;
+}
+
+#Menna-MA {
+  position: absolute;
+  top: 3700px;
+  left: 1090px;
+}
+
+.UXL {
+  position: absolute;
+  top: 4460px;
+  left: 5px;
+  font-size: 15px;
+}
+
+.UXIMG {
+  position: absolute;
+  top: 4490px;
+  left: 190px;
+}
+
+.UX {
+  position: absolute;
+  top: -180px;
+  left: 120px;
+}
+
+#Omar-UX {
+  position: absolute;
+  top: 4300px;
+  left: -30px;
+}
+
+.DEL {
+  position: absolute;
+  top: 5400px;
+}
+
+.DEIMG {
+  position: absolute;
+  top: 5430px;
+  left: 273px;
+}
+
+.DE {
+  position: absolute;
+  top: -1120px;
+  left: 730px;
+}
+
+#Fikry-DE {
+  position: absolute;
+  top: 4300px;
+  left: 500px;
+}
+
+#Afifi-DE {
+  position: absolute;
+  top: 4300px;
+  left: 1020px;
+}
+
+.ITL {
+  position: absolute;
+  top: 5417px;
+}
+
+.ITIMG {
+  position: absolute;
+  top: 5453px;
+  left: 220px;
+}
+
+.IT {
+  position: absolute;
+  top: -500px;
+}
+
+#Kirolos-IT {
+  position: absolute;
+  top: 4950px;
+  left: -75px;
+}
+
+#Fady-IT {
+  position: absolute;
+  top: 4950px;
+  left: 320px;
+}
+
+.VEL {
+  font-size: 16px;
+  position: absolute;
+  top: 5472px;
+  left: 100px;
+}
+
+.VEIMG {
+  position: absolute;
+  top: 5502px;
+  left: 5px;
+}
+
+.VE {
+  position: absolute;
+  top: -550px;
+  left: 933px;
+}
+
+#Loay-VE {
+  position: absolute;
+  top: 4950px;
+  left: 714px;
+}
+
+#Deena-VE {
+  position: absolute;
+  top: 4950px;
+  left: 1106px;
 }
 
 .general-container {
