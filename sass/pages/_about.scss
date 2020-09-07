@@ -15,6 +15,16 @@
   @media screen and (max-width: 600px) {
     .quote {
       font-size: 20px;
+      position: absolute;
+      top: 168px;
+      left: 68px;
+  }
+  }
+
+  @media screen and (max-width: 600px){
+    .qq {
+      position: absolute;
+      left: 130px;
     }
   }
   
@@ -30,9 +40,13 @@
 }
 
 @media screen and (max-width: 600px) {
-    .dq {
-      font-size: 51.6px;
-    }
+  .dq {
+    font-size: 51.6px;
+    position: absolute;
+    left: 207px;
+    top: 120px;
+}
+
   }
 
 
@@ -61,7 +75,7 @@
     .TEDX_icon{
       width: 100px;
       height: 120px;
-      position: relative;
+      position: absolute;
       left:20
     }
   }
@@ -81,6 +95,7 @@
 @media screen and (max-width: 600px) {
     #About_TEDxYouthMaadiSTEM {
       left: 18px;
+      top: 50px;
       font-size: 17px;
   
     }
