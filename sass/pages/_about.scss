@@ -66,18 +66,19 @@
     }
   }
 //about TEDx maadi header
-  #About_TEDxYouthMaadiSTEM {
-    position:relative; 
-    left: -60px;
-    text-align: center;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    color: $black;
-    text-transform: uppercase;
-  }
-  @media screen and (max-width: 600px) {
+#About_TEDxYouthMaadiSTEM {
+  position: absolute;
+  left: 468px;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: #000000;
+  text-transform: uppercase;
+}  
+
+@media screen and (max-width: 600px) {
     #About_TEDxYouthMaadiSTEM {
       left: 18px;
       font-size: 17px;
@@ -110,9 +111,9 @@
 //TEDX paragraph
 #TEDx {
   opacity: 0.27;
-  left: 80px;
-  top: 20px;
-  position: relative;
+  left: 447px;
+  top: 713px;
+  position: absolute;
   overflow: visible;
   width: 771px;
   height: 183px;
@@ -123,9 +124,10 @@
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  color: rgba(0,0,0,1);
+  color: black;
   letter-spacing: 0.3px;
 }
+
 @media screen and (max-width: 600px) {
   #TEDx{
     left: 13px;
@@ -140,8 +142,9 @@
 }
 #About_us {
   opacity: 0.056;
-  top: 90px;
-  position: relative;
+  top: 884px;
+  left: 1029px;
+  position: absolute;
   line-height: 104px;
   margin-top: -10.5px;
   text-align: right;
@@ -149,7 +152,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 83px;
-  color: $black;
+  color: #000000;
   letter-spacing: 0.3px;
   text-transform: uppercase;
 }
@@ -182,6 +185,7 @@
     width: 50%;
     }
 }
+
 #MEET_THE_TEAM {
   white-space: nowrap;
   text-align: center;
@@ -189,10 +193,11 @@
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
-  color: $black;
+  color: #000000;
   text-transform: uppercase;
-  position: relative;
-  top:-130px;
+  position: absolute;
+  top: 1081px;
+  left: 727px;
 }
 
 @media screen and (max-width: 600px) {
@@ -231,13 +236,12 @@ height: auto;
 }
 #rectangle2 {
   overflow: visible;
-  position: relative;
+  position: absolute;
   width: 89px;
   height: 6px;
-  left: -187px;
-  top: -85px;
+  left: 1322px;
+  top: 1226px;
 }
-
 @media screen and (max-width: 600px) {
   #rectangle2 {
     position: relative;
@@ -246,9 +250,10 @@ height: auto;
     width: 60px;
   }
 }
+
 #CHAIRWOMEN {
-  left: -172px;
-  top:-80px;
+  left: 208px;
+  top: 1190px;
   overflow: visible;
   white-space: nowrap;
   text-align: right;
@@ -256,10 +261,10 @@ height: auto;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  color: $black;
+  color: #000000;
   letter-spacing: 0.3px;
   text-transform: uppercase;
-  position: relative;
+  position: absolute;
 }
 
 @media screen and (max-width: 600px) {
@@ -655,4 +660,219 @@ height: auto;
   position: absolute;
   top: 4950px;
   left: 1106px;
+} 
+
+#Manar-TR {
+  position: absolute;
+  top: 5551px;
+  left: 480px;
+}
+
+.TreasureL {
+  font-size: 35px;
+  position: absolute;
+  top: 5560px;
+  left: 600px;
+}
+
+.TreasureIMG {
+  position: absolute;
+  top: 5600px;
+  left: 940px;
+  width: 120px;
+}
+
+.OCL {
+  position: absolute;
+  top: 6352px;
+  left: 129px;
+}
+
+.OCIMG{
+  position: absolute;
+  top:6336px;
+  left: 47px;
+}
+
+.OC {
+  position: absolute;
+  top: -101px;
+}
+
+div#Badr-OC {
+  position: absolute;
+  top: 6270px;
+  left: -70px;
+}
+
+div#Rozan-OC {
+  position: absolute;
+  top: 6270px;
+  left: 325px;
+}
+
+.COIMG {
+  position: absolute;
+  top: 37px;
+  left: 437px;
+}
+
+.COL {
+  position: absolute;
+  top: 2px;
+}
+
+.CO {
+  position: absolute;
+  top: 6223px;
+  left: 900px;
+}
+
+div#Mona-CO {
+  position: absolute;
+  top: 6270px;
+  left: 717px;
+}
+
+div#Malak-CO {
+  position: absolute;
+  top: 6270px;
+  left: 1107px;
+}
+
+.FR {
+  position: absolute;
+  top: 6885px;
+  left: 95px;
+}
+
+.FRIMG {
+  position: absolute;
+  top: -12px;
+}
+
+.FRL {
+  position: absolute;
+  top: 5px;
+}
+
+.PRIMG {
+  position: absolute;
+  top: 34px;
+  left: 394px;
+}
+
+.PRL {
+  position: absolute;
+  top: 3px;
+}
+
+.PR.container {
+  position: absolute;
+  top: 6885px;
+  left: 795px;
+}
+
+div#Naira-FR {
+  position: absolute;
+  top: 6899px;
+  left: -66px;
+}
+
+div#Moamen-FR {
+  position: absolute;
+  top: 6899px;
+  left: 323px;
+}
+
+div#Soudy-PR {
+  position: absolute;
+  top: 6899px;
+  left: 711px;
+}
+
+div#Akmal-PR {
+  position: absolute;
+  top: 6899px;
+  left: 1099px;
+}
+
+.HRIMG {
+  position: absolute;
+  top: 40px;
+  left: 294px;
+  width: 105px;
+}
+
+.HRL {
+  font-size: 34px;
+  position: absolute;
+}
+
+.HR-section {
+  position: absolute;
+  left: 498px;
+}
+
+div#Jana-HR {
+  position: absolute;
+  top: 7495px;
+  left: 471px;
+}
+
+.OD {
+  position: absolute;
+  left: 55px;
+  top: 8190px;
+}
+
+.ODIMG {
+  position: absolute;
+  top: -10px;
+}
+
+.ODL {
+  position: absolute;
+  top: auto;
+}
+
+.TML {
+  position: absolute;
+  top: auto;
+}
+
+.TMIMG {
+  position: absolute;
+  top: 35px;
+  left: 431px;
+}
+
+.TM {
+  position: absolute;
+  top: 8190px;
+  left: 760px;
+}
+
+div#Hamed-OD {
+  position: absolute;
+  top: 8208px;
+  left: -70px;
+}
+
+div#Alaa-OD {
+  position: absolute;
+  top: 8208px;
+  left: 317px;
+}
+
+div#Radwa-TM {
+  position: absolute;
+  top: 8208px;
+  left: 705px;
+}
+
+div#Sayed-TM {
+  position: absolute;
+  top: 8208px;
+  left: 1086px;
 }
