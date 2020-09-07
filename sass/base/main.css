@@ -234,10 +234,10 @@ h1 {
 
 @media screen and (max-width: 600px) {
   .TEDX_icon {
+    top: 326px;
     width: 100px;
     height: 120px;
     position: absolute;
-    left: 20;
   }
 }
 

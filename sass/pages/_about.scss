@@ -78,12 +78,13 @@
   }
 //TEDX_icon 
   @media screen and (max-width: 600px) {
-    .TEDX_icon{
+    .TEDX_icon {
+      top: 326px;
       width: 100px;
       height: 120px;
       position: absolute;
-      left:20
-    }
+  }
+  
   }
 //about TEDx maadi header
 #About_TEDxYouthMaadiSTEM {
