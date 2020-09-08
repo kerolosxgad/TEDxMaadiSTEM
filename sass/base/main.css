@@ -1576,6 +1576,12 @@ div#Alaa-OD {
   }
 }
 
+div#Radwa-TM {
+  position: absolute;
+  top: 8208px;
+  left: 700px;
+}
+
 @media screen and (max-width: 600px) {
   div#Radwa-TM {
     position: absolute;
