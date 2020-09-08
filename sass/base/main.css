@@ -430,10 +430,10 @@ figure {
 
 @media screen and (max-width: 600px) {
   #rectangle2 {
-    position: relative;
-    left: 280px;
-    left: -10px;
-    width: 60px;
+    position: absolute;
+    left: 231px;
+    top: 1251px;
+    width: 100px;
   }
 }
 
@@ -455,8 +455,9 @@ figure {
 
 @media screen and (max-width: 600px) {
   #CHAIRWOMEN {
-    left: 20px;
-    top: -65px;
+    left: -105px;
+    top: 1220px;
+    position: absolute;
   }
 }
 
@@ -467,6 +468,14 @@ figure {
   left: 213px;
   top: 1476px;
   overflow: visible;
+}
+
+@media screen and (max-width: 600px) {
+  .Member {
+    left: -105px;
+    top: 1220px;
+    position: absolute;
+  }
 }
 
 #Dina_Solitah_-_Chairwoman {
@@ -498,11 +507,19 @@ figure {
   position: absolute;
   -webkit-filter: drop-shadow(0px 3px 56px rgba(0, 0, 0, 0.161));
           filter: drop-shadow(0px 3px 56px rgba(0, 0, 0, 0.161));
-  overflow: visible;
   width: 480px;
   height: 275px;
   left: 155px;
   top: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  .Name_Tag {
+    position: absolute;
+    top: 400px;
+    left: 125px;
+    width: 290px;
+  }
 }
 
 #Name_Tag {
@@ -528,6 +545,27 @@ figure {
   letter-spacing: 0.3px;
 }
 
+@media screen and (max-width: 600px) {
+  #role {
+    position: absolute;
+    opacity: 0.269;
+    left: 215px;
+    top: 470px;
+    overflow: visible;
+    width: 107px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -5px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    letter-spacing: 0.3px;
+  }
+}
+
 #name {
   position: absolute;
   left: 210px;
@@ -543,6 +581,25 @@ figure {
   color: black;
   letter-spacing: 0.3px;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  #name {
+    position: absolute;
+    left: 165px;
+    top: 430px;
+    overflow: visible;
+    width: 209px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: black;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+  }
 }
 
 .dec_3 {
@@ -563,8 +620,8 @@ figure {
 
 @media screen and (max-width: 600px) {
   #DINA_CW {
-    left: 39px;
-    top: 521px;
+    left: -110px;
+    top: 707px;
     width: 300px;
     height: 300px;
   }
@@ -576,10 +633,26 @@ figure {
   left: 500px;
 }
 
+@media screen and (max-width: 600px) {
+  #SHAHD_CW {
+    position: absolute;
+    top: 1738px;
+    left: -80px;
+  }
+}
+
 #Yasmin_CW {
   position: relative;
   top: -1260px;
   left: 1040px;
+}
+
+@media screen and (max-width: 600px) {
+  #Yasmin_CW {
+    position: absolute;
+    left: -80px;
+    top: 2250px;
+  }
 }
 
 .comm {
@@ -602,6 +675,14 @@ figure {
   left: 80px;
 }
 
+@media screen and (max-width: 600px) {
+  .projectManagment {
+    position: absolute;
+    top: 2843px;
+    left: 80px;
+  }
+}
+
 .PMIMG {
   position: absolute;
   top: -20px;
@@ -612,16 +693,40 @@ figure {
   top: 2200px;
 }
 
+@media screen and (max-width: 600px) {
+  #Mostafa_PM {
+    position: absolute;
+    top: 2830px;
+    left: -80px;
+  }
+}
+
 #Rokaya_PM {
   position: absolute;
   top: 2200px;
   left: 680px;
 }
 
+@media screen and (max-width: 600px) {
+  #Rokaya_PM {
+    position: absolute;
+    top: 3324px;
+    left: -80px;
+  }
+}
+
 .BrandingSection {
   position: absolute;
   top: 3000px;
   left: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  .BrandingSection {
+    position: absolute;
+    top: 3884px;
+    left: -35px;
+  }
 }
 
 .BSIMG {
@@ -631,8 +736,23 @@ figure {
   width: 120px;
 }
 
+@media screen and (max-width: 600px) {
+  .BSIMG {
+    position: absolute;
+    top: 40px;
+    left: 330px;
+    width: 120px;
+  }
+}
+
 .BrandingL {
   font-size: 35px;
+}
+
+@media screen and (max-width: 600px) {
+  .BrandingL {
+    font-size: 23px;
+  }
 }
 
 #Tasnim_BS {
@@ -641,10 +761,26 @@ figure {
   left: 480px;
 }
 
+@media screen and (max-width: 600px) {
+  #Tasnim_BS {
+    position: absolute;
+    top: 3916px;
+    left: -80px;
+  }
+}
+
 .CW {
   position: absolute;
   top: 3700px;
   left: 80px;
+}
+
+@media screen and (max-width: 600px) {
+  .CW {
+    position: absolute;
+    top: 4480px;
+    left: 80px;
+  }
 }
 
 .CWL {
@@ -660,6 +796,14 @@ figure {
   position: absolute;
   top: 3700px;
   left: -70px;
+}
+
+@media screen and (max-width: 600px) {
+  #Gasser-CW {
+    position: absolute;
+    top: 4465px;
+    left: -80px;
+  }
 }
 
 .CWimg {
@@ -715,6 +859,14 @@ figure {
   left: 310px;
 }
 
+@media screen and (max-width: 600px) {
+  #Omar-CW {
+    position: absolute;
+    top: 4970px;
+    left: -80px;
+  }
+}
+
 .DSIMG {
   position: absolute;
   top: 4500px;
@@ -733,16 +885,40 @@ figure {
   top: -760px;
 }
 
+@media screen and (max-width: 600px) {
+  .Desgin {
+    position: absolute;
+    left: 231px;
+    top: 1076px;
+  }
+}
+
 #Mariam-MA {
   position: absolute;
   top: 3700px;
   left: 700px;
 }
 
+@media screen and (max-width: 600px) {
+  #Mariam-MA {
+    position: absolute;
+    top: 5566px;
+    left: -80px;
+  }
+}
+
 #Menna-MA {
   position: absolute;
   top: 3700px;
   left: 1090px;
+}
+
+@media screen and (max-width: 600px) {
+  #Menna-MA {
+    position: absolute;
+    top: 6061px;
+    left: -80px;
+  }
 }
 
 .UXL {
@@ -764,10 +940,26 @@ figure {
   left: 120px;
 }
 
+@media screen and (max-width: 600px) {
+  .UX {
+    position: absolute;
+    top: 2167px;
+    left: 59px;
+  }
+}
+
 #Omar-UX {
   position: absolute;
   top: 4300px;
   left: -30px;
+}
+
+@media screen and (max-width: 600px) {
+  #Omar-UX {
+    position: absolute;
+    top: 6654px;
+    left: -80px;
+  }
 }
 
 .DEL {
@@ -787,16 +979,40 @@ figure {
   left: 730px;
 }
 
+@media screen and (max-width: 600px) {
+  .DE {
+    position: absolute;
+    top: 1802px;
+    left: -28px;
+  }
+}
+
 #Fikry-DE {
   position: absolute;
   top: 4300px;
   left: 500px;
 }
 
+@media screen and (max-width: 600px) {
+  #Fikry-DE {
+    position: absolute;
+    top: 7228px;
+    left: -80px;
+  }
+}
+
 #Afifi-DE {
   position: absolute;
   top: 4300px;
   left: 1020px;
+}
+
+@media screen and (max-width: 600px) {
+  #Afifi-DE {
+    position: absolute;
+    top: 7726px;
+    left: -80px;
+  }
 }
 
 .ITL {
@@ -815,16 +1031,39 @@ figure {
   top: -500px;
 }
 
+@media screen and (max-width: 600px) {
+  .IT {
+    position: absolute;
+    top: 2881px;
+  }
+}
+
 #Kirolos-IT {
   position: absolute;
   top: 4950px;
   left: -75px;
 }
 
+@media screen and (max-width: 600px) {
+  #Kirolos-IT {
+    position: absolute;
+    top: 8324px;
+    left: -80px;
+  }
+}
+
 #Fady-IT {
   position: absolute;
   top: 4950px;
   left: 320px;
+}
+
+@media screen and (max-width: 600px) {
+  #Fady-IT {
+    position: absolute;
+    top: 8829px;
+    left: -80px;
+  }
 }
 
 .VEL {
@@ -1072,6 +1311,22 @@ div#Sayed-TM {
   position: absolute;
   top: 8208px;
   left: 1086px;
+}
+
+@media screen and (max-width: 600px) {
+  #memberimg {
+    position: absolute;
+    top: -15px;
+    position: absolute;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mobile-whitespace {
+    padding-bottom: 7000px;
+    border: 1px solid transparent;
+  }
 }
 
 .general-container {

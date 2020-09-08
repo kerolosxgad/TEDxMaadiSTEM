@@ -268,11 +268,11 @@ height: auto;
 }
 @media screen and (max-width: 600px) {
   #rectangle2 {
-    position: relative;
-    left: 280px;
-    left: -10px;
-    width: 60px;
-  }
+    position: absolute;
+    left: 231px;
+    top: 1251px;
+    width: 100px;
+}
 }
 
 #CHAIRWOMEN {
@@ -293,9 +293,10 @@ height: auto;
 
 @media screen and (max-width: 600px) {
   #CHAIRWOMEN {
-    left: 20px;
-    top: -65px;
-    }
+    left: -105px;
+    top: 1220px;
+    position: absolute;
+}
 }
 
 .Member {
@@ -305,6 +306,14 @@ height: auto;
   left: 213px;
   top: 1476px;
   overflow: visible;
+}
+
+@media screen and (max-width: 600px) {
+  .Member {
+    left: -105px;
+    top: 1220px;
+    position: absolute;
+}
 }
 
 #Dina_Solitah_-_Chairwoman {
@@ -334,13 +343,19 @@ height: auto;
 .Name_Tag {
   position: absolute;
   filter: drop-shadow(0px 3px 56px rgba(0, 0, 0, 0.161));
-  overflow: visible;
   width: 480px;
   height: 275px;
   left: 155px;
   top: 500px ;
 }
-
+@media screen and (max-width: 600px) {
+  .Name_Tag {
+      position: absolute;
+      top: 400px;
+      left: 125px;
+      width: 290px;
+  }
+}
 #Name_Tag {
   fill: rgba(255,255,255,1);
 }
@@ -364,6 +379,27 @@ height: auto;
   letter-spacing: 0.3px;
 }
 
+@media screen and (max-width: 600px) {
+  #role {
+    position: absolute;
+    opacity: 0.269;
+    left: 215px;
+    top: 470px;
+    overflow: visible;
+    width: 107px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -5px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.3px;
+}
+}
+
 #name {
   position: absolute;
   left: 210px;
@@ -380,6 +416,26 @@ height: auto;
   letter-spacing: 0.3px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 600px) {
+  #name {
+  position: absolute;
+  left: 165px;
+  top: 430px;
+  overflow: visible;
+  width: 209px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  color: rgba(0,0,0,1);
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+}
+
 
 .dec_3 {
   position: relative;
@@ -399,10 +455,11 @@ height: auto;
 
 @media screen and (max-width: 600px) {
   #DINA_CW {
-    left: 39px;
-    top: 521px;
-    width: 300px;
-    height: 300px;
+      left: -110px;
+      top: 707px;
+      width: 300px;
+      height: 300px;
+  
 }
 }
 #SHAHD_CW{
@@ -411,10 +468,28 @@ height: auto;
   left: 500px;
    
 }
+
+@media screen and (max-width: 600px) {
+  #SHAHD_CW {
+    
+    position: absolute;
+    top: 1738px;
+    left: -80px;
+}
+
+}
 #Yasmin_CW{
   position: relative;
   top:-1260px;
   left: 1040px;
+}
+
+@media screen and (max-width: 600px) {
+  #Yasmin_CW {
+    position: absolute;
+    left: -80px;
+    top: 2250px;
+}
 }
 
 .comm {
@@ -437,6 +512,13 @@ height: auto;
   left: 80px;
 }
 
+@media screen and (max-width: 600px) {
+  .projectManagment {
+    position: absolute;
+    top: 2843px;
+    left: 80px;
+}
+}
 .PMIMG {
   position: absolute;
   top: -20px;
@@ -446,11 +528,25 @@ height: auto;
   position: absolute;
   top: 2200px;
 }
-
+@media screen and (max-width: 600px) {
+  #Mostafa_PM {
+    position: absolute;
+    top: 2830px;
+    left: -80px;
+}
+}
 #Rokaya_PM {
   position: absolute;
   top: 2200px;
   left: 680px;
+}
+
+@media screen and (max-width: 600px) {
+  #Rokaya_PM {
+    position: absolute;
+    top: 3324px;
+    left: -80px;
+}
 }
 
 .BrandingSection {
@@ -459,6 +555,13 @@ height: auto;
   left: 500px;
 }
 
+@media screen and (max-width: 600px) {
+  .BrandingSection {
+    position: absolute;
+    top: 3884px;
+    left: -35px;
+}
+}
 .BSIMG{
   position: absolute;
   top: 40px;
@@ -466,10 +569,24 @@ height: auto;
   width:120px
 }
 
+@media screen and (max-width: 600px) {
+  .BSIMG {
+    position: absolute;
+    top: 40px;
+    left: 330px;
+    width: 120px;
+}
+}
+
 .BrandingL{
   font-size: 35px;
 }
 
+@media screen and (max-width: 600px) {
+  .BrandingL {
+    font-size: 23px ;
+}
+}
 #Tasnim_BS{
   position: absolute;
   top: 3000px;
@@ -477,10 +594,30 @@ height: auto;
     
 }
 
+
+@media screen and (max-width: 600px) {
+  #Tasnim_BS {
+  position: absolute;
+  top: 3916px;
+  left: -80px;
+}
+
+}
+
+
 .CW {
   position: absolute;
   top: 3700px;
   left: 80px;
+}
+
+@media screen and (max-width: 600px) {
+  .CW  {
+    position: absolute;
+    top: 4480px;
+    left: 80px;
+}
+  
 }
 
 .CWL{
@@ -497,6 +634,15 @@ height: auto;
   position: absolute;
   top: 3700px;
   left: -70px;
+}
+
+@media screen and (max-width: 600px) {
+  #Gasser-CW  {
+    position: absolute;
+    top: 4465px;
+    left: -80px;
+}
+  
 }
 .CWimg{
   position: absolute;
@@ -550,6 +696,16 @@ height: auto;
   left: 310px;
 }
 
+@media screen and (max-width: 600px) {
+  #Omar-CW {
+    position: absolute;
+    top: 4970px;
+    left: -80px;
+}
+
+  
+}
+
 .DSIMG{
   position: absolute;
   top: 4500px;
@@ -568,10 +724,25 @@ height: auto;
   top: -760px;
 }
 
+@media screen and (max-width: 600px) {
+  .Desgin  {
+    position: absolute;
+    left: 231px;
+    top: 1076px;
+}
+}
 #Mariam-MA {
   position: absolute;
   top: 3700px;
   left: 700px;
+}
+
+@media screen and (max-width: 600px) {
+  #Mariam-MA {
+    position: absolute;
+    top: 5566px;
+    left: -80px;
+}
 }
 
 #Menna-MA{
@@ -579,6 +750,15 @@ height: auto;
   top: 3700px;
   left: 1090px;
 }
+
+@media screen and (max-width: 600px) {
+  #Menna-MA {
+    position: absolute;
+    top: 6061px;
+    left: -80px;
+}
+}
+
 
 
 
@@ -600,10 +780,26 @@ height: auto;
   left: 120px;
 }
 
+@media screen and (max-width: 600px) {
+  .UX {
+    position: absolute;
+    top: 2167px;
+    left: 59px;
+}
+}
+
 #Omar-UX {
   position: absolute;
   top: 4300px;
   left: -30px;
+}
+
+@media screen and (max-width: 600px) {
+  #Omar-UX {
+    position: absolute;
+    top: 6654px;
+    left: -80px;
+}
 }
 
 .DEL{
@@ -622,11 +818,25 @@ height: auto;
   top: -1120px;
   left: 730px;
 }
-
+@media screen and (max-width: 600px) {
+  .DE {
+    position: absolute;
+    top: 1802px;
+    left: -28px;
+}
+}
 #Fikry-DE {
   position: absolute;
   top: 4300px;
   left: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  #Fikry-DE {
+    position: absolute;
+    top: 7228px;
+    left: -80px;
+}
 }
 
 #Afifi-DE{
@@ -635,11 +845,20 @@ height: auto;
   left:1020px
 }
 
+@media screen and (max-width: 600px) {
+  #Afifi-DE {
+    position: absolute;
+    top: 7726px;
+    left: -80px;
+}
+}
+
+
 .ITL{
   position: absolute;
   top: 5417px;
 
-}
+} 
 
 .ITIMG {
   position: absolute;
@@ -652,16 +871,41 @@ height: auto;
   top: -500px;
 }
 
+
+@media screen and (max-width: 600px) {
+  .IT {
+    position: absolute;
+    top: 2881px;
+}
+}
+
+
 #Kirolos-IT {
   position: absolute;
   top: 4950px;
   left: -75px;
 }
 
+@media screen and (max-width: 600px) {
+  #Kirolos-IT  {
+    position: absolute;
+    top: 8324px;
+    left: -80px;
+}
+}
+
 #Fady-IT {
   position: absolute;
   top: 4950px;
   left: 320px;
+}
+
+@media screen and (max-width: 600px) {
+  #Fady-IT {
+    position: absolute;
+    top: 8829px;
+    left: -80px;
+}
 }
 
 .VEL {
@@ -909,4 +1153,24 @@ div#Sayed-TM {
   position: absolute;
   top: 8208px;
   left: 1086px;
+}
+
+#memberimg{
+
+}
+@media screen and (max-width: 600px) {
+  #memberimg {
+    position: absolute;
+    top:-15px;
+    position: absolute;
+    width: 500px;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .mobile-whitespace {
+    padding-bottom: 7000px;
+    border: 1px solid transparent;
+  
+}
 }
