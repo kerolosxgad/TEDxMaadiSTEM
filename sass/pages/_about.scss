@@ -1477,10 +1477,25 @@ span.moustafan {
   position: absolute;
   left: -36px;
 }
+@media screen and (max-width: 600px) {
+  span.moustafan {
+    position: absolute;
+    left: 0px;
+  }
+}
+
+
 span.tasnimn {
   position: absolute;
   left: -10px;
 }
+@media screen and (max-width: 600px) {
+  span.tasnimn {
+    position: absolute;
+    left: 17px;
+  }
+}
+
 
 span.gassern {
   position: absolute;
