@@ -1,0 +1,96 @@
+.general-container {
+  height: 500px;
+  margin-top: 100px;
+  #genres {
+    font-size: 12px;
+  }
+  .small-article-container {
+    width: 50%;
+
+    .button-header-article-main {
+      margin-top: 3px;
+      color: $grey;
+      padding: 5px;
+      padding-left: 6px;
+      padding-right: 6px;
+      text-transform: uppercase;
+      font-weight: bolder;
+      font-size: 12px;
+      background-color: white;
+      margin-left: 15px;
+      border-radius: 10px;
+      border: solid $grey 1.5px;
+      transition: ease all 0.2s;
+
+      &:hover {
+        background-color: $red;
+        color: white;
+        -webkit-box-shadow: 0px 3px 20px 4px rgba(255, 43, 6, 0.32);
+        -moz-box-shadow: 0px 3px 20px 4px rgba(255, 43, 6, 0.32);
+        box-shadow: 0px 3px 20px 4px rgba(255, 43, 6, 0.32);
+        border-color: $red;
+        transform: scale(1.1);
+      }
+    }
+    .button-header-article {
+      margin-top: 2px;
+      color: $grey;
+      padding-left: 6px;
+      padding-right: 6px;
+      text-transform: uppercase;
+      font-weight: bolder;
+      font-size: 10px;
+      margin-left: 15px;
+      border-radius: 10px;
+      background-color: white;
+      border: solid $grey 1.5px;
+      transition: ease all 0.2s;
+
+      &:hover {
+        color: $black;
+        // -webkit-box-shadow: 0px 3px 20px 4px rgba(255, 43, 6, 0.32);
+        // -moz-box-shadow: 0px 3px 20px 4px rgba(255, 43, 6, 0.32);
+        // box-shadow: 0px 3px 20px 4px rgba(255, 43, 6, 0.32);
+        border-color: $black;
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .main-text-container {
+    width: 50%;
+
+    .main-text-article {
+      margin-top: 10px;
+      font-size: 60px;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-weight: bolder;
+      line-height: 1;
+      span {
+        color: $red;
+      }
+    }
+  }
+
+  .main-article-content {
+    .main-article-content-header {
+      width: 30%;
+      font-size: 13px;
+      .author-article {
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: 14px;
+        margin-right: 13px;
+      }
+      .article-circle-small {
+        width: 5px;
+        margin-right: 10px;
+        margin: 3px;
+        height: 5px;
+        border-radius: 50%;
+        background-color: black;
+        display: block;
+      }
+    }
+  }
+}

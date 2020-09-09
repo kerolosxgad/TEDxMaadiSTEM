@@ -1,0 +1,17 @@
+/*The Main Scss File*/
+@import 'components/config';
+@import 'components/navfooter';
+@import 'pages/home';
+@import 'pages/about';
+@import 'pages/articles';
+@import 'pages/contact';
+/* Please Edit Live Sass Setting Save Location to /sass/base/ */
+/*
+    "liveSassCompile.settings.formats": [ {
+        "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/sass/base/",
+    }
+ 
+    ],
+*/
