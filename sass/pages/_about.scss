@@ -1434,9 +1434,7 @@ div#Sayed-TM {
   }
 }
 
-#memberimg{
 
-}
 @media screen and (max-width: 600px) {
   #memberimg {
     position: absolute;
@@ -1469,3 +1467,15 @@ div#Sayed-TM {
     text-transform: uppercase;
 }
 }
+.animation-large:hover {
+  visibility: hidden;
+}
+.animation-large {
+  position: absolute;
+  width: 395px;
+  height: 470px;
+  left: 113px;
+  top: 85px;
+  visibility:visible ;
+}
+
