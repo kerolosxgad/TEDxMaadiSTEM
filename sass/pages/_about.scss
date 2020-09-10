@@ -184,6 +184,10 @@
 
 .MEET_THE_TEAM{margin-top: 120px;}
 
+@media screen and (max-width: 600px) {
+  .MEET_THE_TEAM{margin-top: 800px;}
+}
+
 #teamimg {
   width: 160px;
   height: 160px;
@@ -284,6 +288,12 @@ height: auto;
   &:hover ~ .member-info{
     transform: translateY(-20px);
     box-shadow: 0px 0px 30px 10px rgba(225,225,225,0.5);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .high-board img{
+    width: 80%;
   }
 }
 

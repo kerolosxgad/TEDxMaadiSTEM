@@ -338,6 +338,12 @@ h1 {
   margin-top: 120px;
 }
 
+@media screen and (max-width: 600px) {
+  .MEET_THE_TEAM {
+    margin-top: 800px;
+  }
+}
+
 #teamimg {
   width: 160px;
   height: 160px;
@@ -448,6 +454,12 @@ figure {
           transform: translateY(-20px);
   -webkit-box-shadow: 0px 0px 30px 10px rgba(225, 225, 225, 0.5);
           box-shadow: 0px 0px 30px 10px rgba(225, 225, 225, 0.5);
+}
+
+@media screen and (max-width: 600px) {
+  .high-board img {
+    width: 80%;
+  }
 }
 
 .member-info .name {
@@ -578,24 +590,15 @@ body {
   background-color: red;
 }
 
-.contact-title {
-  font-weight: 400;
-  font-size: 3rem;
-}
-
-.contact-title span {
-  color: #FF2B06;
-}
-
 .form {
   -webkit-box-shadow: 0px 0px 20px #bdbdbd;
           box-shadow: 0px 0px 20px #bdbdbd;
-  width: 500px;
-  height: 420px;
+  width: 95%;
   border-radius: 30px;
-  margin: 30px 0px;
+  margin: 30px auto;
   padding-left: 20px;
   padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .form label {
@@ -604,7 +607,7 @@ body {
 
 .form-title {
   color: #bdbdbd;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -613,9 +616,15 @@ input[type="text"] {
   border-left: 0;
   border-right: 0;
   font-weight: 200;
-  width: 450px;
+  width: 90%;
   padding: 4px 20px;
   border-color: #bdbdbd;
+}
+
+input[type="submit"] {
+  background-color: #FF2B06;
+  width: 90%;
+  border-radius: 10px;
 }
 
 input[placeholder] {
@@ -640,9 +649,8 @@ input:focus {
 }
 
 .contact-pic {
-  width: 400px;
-  float: right;
-  margin-top: -30px;
+  margin-top: 30px;
+  width: 85%;
 }
 
 /* Please Edit Live Sass Setting Save Location to /sass/base/ */
