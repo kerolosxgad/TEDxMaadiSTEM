@@ -151,8 +151,121 @@ footer hr {
   font-size: 13px;
 }
 
-h1 {
-  color: #E62B1E;
+.ideas-worth-spreading {
+  margin-top: 120px;
+}
+
+.ideas-worth-spreading .text {
+  width: 80%;
+}
+
+.ideas-worth-spreading .text img {
+  position: absolute;
+  -webkit-transition: .7s ease-in-out;
+  transition: .7s ease-in-out;
+  top: 20px;
+  left: 10px;
+  opacity: 0.85;
+}
+
+.ideas-worth-spreading .text img:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+.ideas-worth-spreading .text h2 {
+  font-size: 3.75rem;
+  margin-bottom: 20px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.ideas-worth-spreading .text p {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.ideas-worth-spreading .text a {
+  color: #FF2B06;
+  text-decoration: none;
+  top: -10px;
+  position: relative;
+}
+
+.ideas-worth-spreading .inpage-links {
+  margin-top: 50px;
+}
+
+.ideas-worth-spreading .inpage-links .media i {
+  width: 45px !important;
+  height: 45px;
+  border: 2px solid;
+  border-radius: 50%;
+  margin-bottom: 8px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 1.4rem;
+  margin-right: 15px;
+  padding-left: 4px;
+  opacity: .6;
+  margin-top: 5px;
+}
+
+.ideas-worth-spreading .inpage-links .media h6 {
+  margin-top: -16px !important;
+  margin-bottom: 2px;
+}
+
+.ideas-worth-spreading .inpage-links .media p {
+  opacity: 0.6;
+  font-weight: 600;
+}
+
+.ideas-worth-spreading .inpage-links .media-href i {
+  color: #FF2B06;
+  opacity: 1;
+  width: 50px !important;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.5rem;
+  margin-right: 15px;
+  padding-left: 2px;
+  margin-left: -3px;
+  margin-top: 10px;
+  cursor: pointer;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.ideas-worth-spreading .inpage-links .media-href i:hover {
+  background-color: #FF2B06;
+  color: #fff;
+}
+
+.ideas-worth-spreading .inpage-links .media-href h6 {
+  font-size: 1.75rem;
+}
+
+.ideas-worth-spreading .inpage-links .media-href p {
+  opacity: .9;
+}
+
+@-webkit-keyframes scaling {
+  0% {
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@keyframes scaling {
+  0% {
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
 }
 
 .quote {
