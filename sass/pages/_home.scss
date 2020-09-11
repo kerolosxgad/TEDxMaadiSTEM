@@ -1,3 +1,5 @@
+html{scroll-behavior: smooth;}
+
 .ideas-worth-spreading{
     margin-top: 120px;
     .text{
@@ -28,6 +30,7 @@
             top: -10px;
             position: relative;
         }
+        
     }
     .inpage-links{
         margin-top: 50px;
@@ -77,6 +80,22 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .ideas-worth-spreading{
+      .text{
+          width: 100% !important;
+          img{top: 0;}
+          h2{
+            font-size: 2.75rem;
+            margin-left: 25px;
+        }
+      }
+      .inpage-links{
+          margin-top: 20px !important;
+      }
+    }
+}
+
 .what-is-tedx{
     padding: 50px 0;
     .text{
@@ -110,7 +129,7 @@
         }
     }
     .inpage-links{
-        margin-top: 50px;
+        margin-top: 20px;
         .media{
             i{
                 width: 45px !important;
@@ -154,5 +173,24 @@
             h6{font-size: 1.75rem;}
             p{opacity: .9;}
         }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .what-is-tedx{
+        overflow-x: hidden;
+        .img-col{text-align: center !important; margin-top: -50px;}
+      .text{
+          width: 100% !important;
+          img{height: 110px !important; top: -7px !important;}
+          h2{
+            font-size: 2.75rem;
+            margin-left: 25px;
+            margin-top: 40px;
+        }
+      }
+      .media-href h6{
+          font-size: 1.35rem !important;
+      }
     }
 }
