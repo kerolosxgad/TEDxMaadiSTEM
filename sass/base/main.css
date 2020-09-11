@@ -250,22 +250,104 @@ footer hr {
   opacity: .9;
 }
 
-@-webkit-keyframes scaling {
-  0% {
-  }
-  100% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-  }
+.what-is-tedx {
+  padding: 50px 0;
 }
 
-@keyframes scaling {
-  0% {
-  }
-  100% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-  }
+.what-is-tedx .text {
+  width: 80%;
+}
+
+.what-is-tedx .text img {
+  position: absolute;
+  -webkit-transition: .7s ease-in-out;
+  transition: .7s ease-in-out;
+  top: -25px;
+  height: 130px;
+  left: 20px;
+  opacity: 0.85;
+}
+
+.what-is-tedx .text img:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+.what-is-tedx .text h2 {
+  font-size: 3.75rem;
+  margin-bottom: 20px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.what-is-tedx .text p {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.what-is-tedx .text a {
+  color: #FF2B06;
+  text-decoration: none;
+  top: -10px;
+  position: relative;
+}
+
+.what-is-tedx .inpage-links {
+  margin-top: 50px;
+}
+
+.what-is-tedx .inpage-links .media i {
+  width: 45px !important;
+  height: 45px;
+  border: 2px solid;
+  border-radius: 50%;
+  margin-bottom: 8px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 1.4rem;
+  margin-right: 15px;
+  padding-left: 4px;
+  opacity: .6;
+  margin-top: 5px;
+}
+
+.what-is-tedx .inpage-links .media h6 {
+  margin-top: -16px !important;
+  margin-bottom: 2px;
+}
+
+.what-is-tedx .inpage-links .media p {
+  opacity: 0.6;
+  font-weight: 600;
+}
+
+.what-is-tedx .inpage-links .media-href i {
+  color: #FF2B06;
+  opacity: 1;
+  width: 50px !important;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.5rem;
+  margin-right: 15px;
+  padding-left: 2px;
+  margin-left: -3px;
+  margin-top: 10px;
+  cursor: pointer;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.what-is-tedx .inpage-links .media-href i:hover {
+  background-color: #FF2B06;
+  color: #fff;
+}
+
+.what-is-tedx .inpage-links .media-href h6 {
+  font-size: 1.75rem;
+}
+
+.what-is-tedx .inpage-links .media-href p {
+  opacity: .9;
 }
 
 .quote {
