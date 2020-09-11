@@ -727,105 +727,38 @@ figure {
   top: -6px;
 }
 
-.general-container {
-  height: 500px;
-  margin-top: 100px;
+.articles-nav h5 {
+  font-weight: 700;
 }
 
-.general-container #genres {
-  font-size: 12px;
-}
-
-.general-container .small-article-container {
-  width: 50%;
-}
-
-.general-container .small-article-container .button-header-article-main {
-  margin-top: 3px;
+.nav-pills .nav-link {
+  border-radius: 10px !important;
   color: #989898;
-  padding: 5px;
-  padding-left: 6px;
-  padding-right: 6px;
   text-transform: uppercase;
-  font-weight: bolder;
-  font-size: 12px;
-  background-color: white;
-  margin-left: 15px;
-  border-radius: 10px;
-  border: solid #989898 1.5px;
-  -webkit-transition: ease all 0.2s;
-  transition: ease all 0.2s;
 }
 
-.general-container .small-article-container .button-header-article-main:hover {
-  background-color: #FF2B06;
-  color: white;
-  -webkit-box-shadow: 0px 3px 20px 4px rgba(255, 43, 6, 0.32);
-  box-shadow: 0px 3px 20px 4px rgba(255, 43, 6, 0.32);
-  border-color: #FF2B06;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+a#pills-home-tab {
+  margin-right: 20px;
+  font-weight: 600;
 }
 
-.general-container .small-article-container .button-header-article {
-  margin-top: 2px;
-  color: #989898;
-  padding-left: 6px;
-  padding-right: 6px;
-  text-transform: uppercase;
-  font-weight: bolder;
-  font-size: 10px;
-  margin-left: 15px;
-  border-radius: 10px;
-  background-color: white;
-  border: solid #989898 1.5px;
-  -webkit-transition: ease all 0.2s;
-  transition: ease all 0.2s;
+a#pills-profile-tab {
+  margin-right: 20px;
+  font-weight: 600;
 }
 
-.general-container .small-article-container .button-header-article:hover {
-  color: #000000;
-  border-color: #000000;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+a#pills-contact-tab {
+  margin-right: 20px;
+  font-weight: 600;
 }
 
-.general-container .main-text-container {
-  width: 50%;
-}
-
-.general-container .main-text-container .main-text-article {
-  margin-top: 10px;
-  font-size: 60px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: bolder;
-  line-height: 1;
-}
-
-.general-container .main-text-container .main-text-article span {
-  color: #FF2B06;
-}
-
-.general-container .main-article-content .main-article-content-header {
-  width: 30%;
-  font-size: 13px;
-}
-
-.general-container .main-article-content .main-article-content-header .author-article {
-  text-transform: uppercase;
-  font-weight: bolder;
-  font-size: 14px;
-  margin-right: 13px;
-}
-
-.general-container .main-article-content .main-article-content-header .article-circle-small {
-  width: 5px;
-  margin-right: 10px;
-  margin: 3px;
-  height: 5px;
-  border-radius: 50%;
-  background-color: black;
-  display: block;
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  font-weight: 700 !important;
+  background-color: #FF2B06 !important;
+  -webkit-box-shadow: 0px 3px 10px #FF2B06;
+          box-shadow: 0px 3px 10px #FF2B06;
+  margin-right: 20px !important;
 }
 
 body {
