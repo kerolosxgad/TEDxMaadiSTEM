@@ -5,10 +5,6 @@ var d = new Date();
 document.getElementById("demo").innerHTML = d.getUTCFullYear();
 //End of Dynamic Year//
 
-window.addEventListener('scroll', () => {
-    document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
-  }, false);
-
 //TEDx logo on small devices
 if (window.matchMedia("(max-width: 1199px)").matches) {
     document.getElementById("navbar-logo").src = "images/TEDxLogo.png";
