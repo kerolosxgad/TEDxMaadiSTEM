@@ -1,0 +1,55 @@
+.banner{
+    padding-bottom: 30px;
+    .text{
+        position: absolute;
+        top: 140px;
+        left: 120px;
+        color: #fff;
+        .date{
+            font-weight: bold;
+        }
+        h2{
+            font-size: 2.7rem;
+            text-transform: uppercase;
+            font-weight: 700;
+        margin-top: 35px;
+            span{color: $red;}
+        }
+        .rectangle{
+            height: 5px;
+    width: 45%;
+    background: $red;
+    display: block;
+    margin: auto;
+    top: -75px;
+        }
+        .description{
+            opacity: .5;
+            width: 39%;
+            font-size: .8rem;
+        }
+    }
+}
+.img{
+    width: 750px;
+    position: relative;
+  }
+  
+  .wrap {
+    position:relative;
+    width: 750px;
+    margin-left: auto;
+    margin-top: 85px;
+  }
+  
+  .wrap::before {
+    width: 100%;
+    content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    z-index:1000;
+    background-image: linear-gradient(to left, transparent, #000);
+  }

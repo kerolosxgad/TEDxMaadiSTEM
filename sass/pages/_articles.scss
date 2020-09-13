@@ -87,17 +87,21 @@ a#pills-contact-tab{
   position: absolute;
   right: 40px;
   top: -50px;
-  color: $grey;
   font-weight: 700;
   font-size: 2.5rem;
   z-index: -1;
+  opacity: .2;
 }
 
 .articles-img{
-  width: 300px;
+  width: 250px;
   position: relative;
   top: -10px;
   z-index: 1;
+  transition: 1s ease-in-out;
+  &:hover{
+    transform: rotateZ(15deg);
+  }
 }
 
 .article2-3{

@@ -727,6 +727,72 @@ figure {
   top: -6px;
 }
 
+.banner {
+  padding-bottom: 30px;
+}
+
+.banner .text {
+  position: absolute;
+  top: 140px;
+  left: 120px;
+  color: #fff;
+}
+
+.banner .text .date {
+  font-weight: bold;
+}
+
+.banner .text h2 {
+  font-size: 2.7rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 35px;
+}
+
+.banner .text h2 span {
+  color: #FF2B06;
+}
+
+.banner .text .rectangle {
+  height: 5px;
+  width: 45%;
+  background: #FF2B06;
+  display: block;
+  margin: auto;
+  top: -75px;
+}
+
+.banner .text .description {
+  opacity: .5;
+  width: 39%;
+  font-size: .8rem;
+}
+
+.img {
+  width: 750px;
+  position: relative;
+}
+
+.wrap {
+  position: relative;
+  width: 750px;
+  margin-left: auto;
+  margin-top: 85px;
+}
+
+.wrap::before {
+  width: 100%;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  background-image: -webkit-gradient(linear, right top, left top, from(transparent), to(#000));
+  background-image: linear-gradient(to left, transparent, #000);
+}
+
 .articles-nav h5 {
   font-weight: 700;
 }
@@ -811,17 +877,24 @@ a#pills-contact-tab {
   position: absolute;
   right: 40px;
   top: -50px;
-  color: #989898;
   font-weight: 700;
   font-size: 2.5rem;
   z-index: -1;
+  opacity: .2;
 }
 
 .articles-img {
-  width: 300px;
+  width: 250px;
   position: relative;
   top: -10px;
   z-index: 1;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.articles-img:hover {
+  -webkit-transform: rotateZ(15deg);
+          transform: rotateZ(15deg);
 }
 
 .article2-3 {
