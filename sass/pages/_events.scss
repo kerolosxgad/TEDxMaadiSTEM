@@ -52,4 +52,23 @@
       left: 0;
     z-index:1000;
     background-image: linear-gradient(to left, transparent, #000);
+}
+
+@media screen and (max-width: 600px) {
+    .wrap{margin-top: 77px;}
+
+    .banner .text{
+        z-index: 1020 !important;
+        top: 100px;
+        left: 20px;
+        h2{
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+        .description{
+            width: 90%;
+            font-size: .75rem;
+        }
+    }
+    .img{left: -80px;}
   }
