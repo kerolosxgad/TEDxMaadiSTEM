@@ -797,6 +797,9 @@ figure {
   .wrap {
     margin-top: 77px;
   }
+  .banner {
+    overflow-x: hidden;
+  }
   .banner .text {
     z-index: 1020 !important;
     top: 100px;
@@ -908,24 +911,23 @@ a#pills-home-tab:hover, a#pills-profile-tab:hover, a#pills-contact-tab:hover {
 
 .articles-abs-title {
   position: absolute;
-  top: 20px;
+  top: -10px;
   left: 100px;
   font-weight: 700;
   font-size: 2.5rem;
   z-index: -1;
   opacity: .2;
-  -webkit-transition: 0.5s ease-in-out !important;
-  transition: 0.5s ease-in-out !important;
+  -webkit-transition: 0.8s ease-in-out !important;
+  transition: 0.8s ease-in-out !important;
 }
 
 .articles-img {
   width: 250px;
   position: relative;
-  top: 30px;
   left: 80px;
   z-index: 1;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out;
 }
 
 .articles-abs:hover .articles-abs-title {
@@ -1007,6 +1009,21 @@ a#pills-home-tab:hover, a#pills-profile-tab:hover, a#pills-contact-tab:hover {
 
 .recomm-animation:hover {
   width: 620px;
+}
+
+#myBtn {
+  padding-left: 0;
+  border: none;
+  color: red;
+  margin-top: -25px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#read-more-target {
+  display: none;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 body {

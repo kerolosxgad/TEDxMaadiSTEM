@@ -29,7 +29,7 @@ if (window.matchMedia("(max-width: 1199px)").matches) {
 
 function myFunction() {
     var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
+    var moreText = document.getElementById("read-more-target");
     var btnText = document.getElementById("myBtn");
   
     if (dots.style.display === "none") {
