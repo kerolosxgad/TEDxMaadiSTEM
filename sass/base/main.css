@@ -793,6 +793,28 @@ figure {
   background-image: linear-gradient(to left, transparent, #000);
 }
 
+@media screen and (max-width: 600px) {
+  .wrap {
+    margin-top: 77px;
+  }
+  .banner .text {
+    z-index: 1020 !important;
+    top: 100px;
+    left: 20px;
+  }
+  .banner .text h2 {
+    margin-top: 0;
+    font-size: 1.8rem;
+  }
+  .banner .text .description {
+    width: 90%;
+    font-size: .75rem;
+  }
+  .img {
+    left: -80px;
+  }
+}
+
 .articles-nav h5 {
   font-weight: 700;
 }
