@@ -890,7 +890,6 @@ a#pills-home-tab, a#pills-profile-tab, a#pills-contact-tab {
 }
 
 a#pills-home-tab:hover, a#pills-profile-tab:hover, a#pills-contact-tab:hover {
-  font-size: 1rem;
   color: #000000;
   border-color: #000000;
 }
@@ -903,7 +902,6 @@ a#pills-home-tab:hover, a#pills-profile-tab:hover, a#pills-contact-tab:hover {
           box-shadow: 0px 3px 10px #FF2B06;
   margin-right: 20px !important;
   border-style: none !important;
-  font-size: 1rem !important;
 }
 
 .article1 h2 {
@@ -945,7 +943,7 @@ a#pills-home-tab:hover, a#pills-profile-tab:hover, a#pills-contact-tab:hover {
 }
 
 .article1 a p:hover {
-  font-size: 1.1rem;
+  font-size: 1.03rem;
 }
 
 .article1 a .fa-angle-right {
@@ -1037,13 +1035,11 @@ a#pills-home-tab:hover, a#pills-profile-tab:hover, a#pills-contact-tab:hover {
   -webkit-box-shadow: 0px 0px 20px #bdbdbd;
           box-shadow: 0px 0px 20px #bdbdbd;
   border-radius: 20px;
-  width: 430px;
-  height: 210px;
   padding: 10px 15px 20px 20px;
 }
 
 .article2-3-animation:hover .article2-3-arrow {
-  right: 140px;
+  right: 30px;
   top: 15px;
 }
 
@@ -1051,21 +1047,17 @@ a#pills-home-tab:hover, a#pills-profile-tab:hover, a#pills-contact-tab:hover {
   font-size: 13px;
 }
 
-.recomm-animation:hover {
-  width: 620px;
-  height: 150px;
-}
-
-#myBtn {
+#myBtn, #myBtn2, #myBtn3 {
   padding-left: 0;
   border: none;
   color: red;
-  margin-top: -25px;
+  margin-top: -10px;
   text-transform: uppercase;
   font-weight: bold;
+  margin-bottom: 25px;
 }
 
-#read-more-target {
+#read-more-target, #read-more-target2, #read-more-target3 {
   display: none;
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
@@ -1101,16 +1093,6 @@ a#pills-home-tab:hover, a#pills-profile-tab:hover, a#pills-contact-tab:hover {
   .article2-3-animation {
     margin-bottom: 30px;
   }
-  .article2-3-animation:hover {
-    width: 650px;
-    height: 180px;
-  }
-  .article2-3-animation:hover .article2-3-arrow {
-    right: 80px !important;
-  }
-  .recomm-animation:hover {
-    height: 140px;
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1123,42 +1105,19 @@ a#pills-home-tab:hover, a#pills-profile-tab:hover, a#pills-contact-tab:hover {
   }
   .articles-img {
     width: 180px;
-    top: 20px;
-    left: 300px !important;
-    margin-bottom: 30px;
+    left: 115px !important;
+    margin-bottom: 80px;
   }
   .articles-abs-title {
     top: 20px;
-    left: 320px;
+    left: 100px;
   }
   .articles-abs:hover .articles-abs-title {
-    -webkit-transform: translate(-250px, 0px) !important;
-            transform: translate(-250px, 0px) !important;
+    -webkit-transform: translate(-50px, -50px) !important;
+            transform: translate(-50px, -50px) !important;
   }
   .article2-3-animation {
     margin-bottom: 30px;
-  }
-  .article2-3-animation:hover {
-    width: 500px;
-    height: 160px;
-  }
-  .recomm-animation:hover {
-    width: 500px;
-    height: 160px;
-  }
-}
-
-@media screen and (max-width: 523px) {
-  .article2-3-animation {
-    margin-bottom: 30px;
-  }
-  .article2-3-animation:hover {
-    width: 95%;
-    height: 180px;
-  }
-  .recomm-animation:hover {
-    width: 95%;
-    height: 180px;
   }
 }
 
@@ -1166,6 +1125,7 @@ a#pills-home-tab:hover, a#pills-profile-tab:hover, a#pills-contact-tab:hover {
   a#pills-home-tab, a#pills-profile-tab, a#pills-contact-tab {
     margin-right: 5px;
     font-size: 9px;
+    margin-bottom: 10px;
   }
   .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     margin-right: 5px !important;
