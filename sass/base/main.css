@@ -1129,6 +1129,44 @@ a#pills-home-tab:hover, a#pills-profile-tab:hover, a#pills-contact-tab:hover {
   }
 }
 
+@media screen and (max-width: 375px) {
+  a#pills-home-tab, a#pills-profile-tab, a#pills-contact-tab {
+    width: 320px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    font-size: 17px !important;
+    font-weight: 400;
+  }
+  .articles-img {
+    left: 180px !important;
+    top: 30px;
+  }
+  .articles-abs-title {
+    top: 30px;
+    left: 195px;
+    font-size: 1.5rem !important;
+  }
+  .articles-abs:hover .articles-abs-title {
+    -webkit-transform: translatex(-195px) !important;
+            transform: translatex(-195px) !important;
+  }
+  .article2-3 {
+    margin-top: 20px;
+  }
+  .article2-3-animation:hover {
+    height: 80%;
+  }
+  .recomm-animation:hover {
+    height: 84%;
+  }
+  .recomm-animation:hover .article2-3-arrow {
+    right: 50px !important;
+  }
+}
+
 body {
   background-color: red;
 }
