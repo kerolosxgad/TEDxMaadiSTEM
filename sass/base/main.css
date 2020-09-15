@@ -409,7 +409,7 @@ html {
     font-size: 20px;
     position: absolute;
     top: 168px;
-    left: 38px;
+    left: 45px;
     width: 350px;
   }
 }
@@ -727,7 +727,7 @@ figure {
   top: -6px;
 }
 
-.brandind-head, .treasure-head, .branding-sub-head {
+.brandind-head, .treasure-head, .treasure-sub-head, .branding-sub-head1, .branding-sub-head2 {
   font-family: montserrat;
   text-transform: uppercase;
   opacity: 0.1;
@@ -745,17 +745,29 @@ figure {
   bottom: 0;
 }
 
-.branding-sub-head {
+.branding-sub-head1, .treasure-sub-head {
+  top: 760px;
+}
+
+.branding-sub-head2 {
   top: -65px;
-  left: 0;
+  left: -120px;
 }
 
 @media screen and (max-width: 600px) {
-  .brandind-head, .treasure-head, .branding-sub-head {
+  .brandind-head, .treasure-head, .branding-sub-head2 {
     font-size: 2.5rem;
   }
   .brandind-head {
     top: -45px;
+  }
+  .treasure-head {
+    top: 20px;
+  }
+  .branding-sub-head2 {
+    left: 0;
+    top: -82px;
+    z-index: -1;
   }
 }
 

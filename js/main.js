@@ -43,3 +43,10 @@ function myFunction() {
     }
   }
 
+/* global $, window */
+
+$(function () {
+
+    console.log("hellooo");
+                                      
+});
