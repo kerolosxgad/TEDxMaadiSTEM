@@ -397,8 +397,7 @@ html {
 
 .quote {
   text-align: center;
-  font-family: Domaine Display Narrow;
-  font-style: normal;
+  font-family: revert;
   font-size: 50px;
   color: #000000;
   letter-spacing: 0.2px;
@@ -479,7 +478,7 @@ html {
 
 #About_TEDxYouthMaadiSTEM {
   position: absolute;
-  left: 400px;
+  left: 350px;
   text-align: center;
   font-family: Montserrat;
   font-style: normal;
@@ -500,7 +499,7 @@ html {
 
 #rectangle1 {
   position: relative;
-  left: 920px;
+  left: 820px;
 }
 
 @media screen and (max-width: 600px) {
@@ -522,7 +521,7 @@ html {
 
 #TEDx {
   opacity: 0.27;
-  left: 382px;
+  left: 332px;
   top: 713px;
   position: absolute;
   overflow: visible;
@@ -607,7 +606,7 @@ html {
   font-size: 25px;
   color: #000000;
   display: block;
-  margin-top: -25px;
+  margin-top: -10px;
 }
 
 figure {
@@ -715,6 +714,7 @@ figure {
   font-weight: bold;
   opacity: 0.5;
   font-size: 0.9rem;
+  text-align: center !important;
 }
 
 .member-info span {
@@ -725,6 +725,38 @@ figure {
   margin: auto;
   position: relative;
   top: -6px;
+}
+
+.brandind-head, .treasure-head, .branding-sub-head {
+  font-family: montserrat;
+  text-transform: uppercase;
+  opacity: 0.1;
+  font-size: 3.75rem;
+  position: absolute;
+}
+
+.brandind-head {
+  right: 0;
+  top: 0;
+}
+
+.treasure-head {
+  left: 0;
+  bottom: 0;
+}
+
+.branding-sub-head {
+  top: -65px;
+  left: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .brandind-head, .treasure-head, .branding-sub-head {
+    font-size: 2.5rem;
+  }
+  .brandind-head {
+    top: -45px;
+  }
 }
 
 .banner {
