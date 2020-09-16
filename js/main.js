@@ -75,10 +75,38 @@ function myFunction3() {
     }
 }
 
-/* global $, window */
+function myFunction4() {
 
-$(function () {
+    var dots = document.getElementById("dots4");
+    var moreText = document.getElementById("read-more-target4");
+    var btnText = document.getElementById("subbtn");
+    var arrow = document.getElementById("subbtnArrow");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      moreText.style.display = "none";
+      arrow.style.transform = "rotate(0deg)";
+    } else {
+      dots.style.display = "none";
+      moreText.style.display = "inline";
+      arrow.style.transform = "rotate(90deg)";
+    }
+}
 
-    console.log("hellooo");
-                                      
-});
+function myFunction5() {
+
+  var dots = document.getElementById("dots5");
+  var moreText = document.getElementById("read-more-target5");
+  var btnText = document.getElementById("subbtn2");
+  var arrow = document.getElementById("subbtnArrow2");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    moreText.style.display = "none";
+    arrow.style.transform = "rotate(0deg)";
+  } else {
+    dots.style.display = "none";
+    moreText.style.display = "inline";
+    arrow.style.transform = "rotate(90deg)";
+  }
+}
