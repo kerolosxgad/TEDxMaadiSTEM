@@ -1,5 +1,6 @@
 /*The Main Scss File*/
 /*The Scss Configs File*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap%27");
 /*The Main Scss File*/
 .navbar {
   background: #fff !important;
@@ -480,7 +481,7 @@ html {
   position: absolute;
   left: 350px;
   text-align: center;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -554,7 +555,7 @@ html {
   position: absolute;
   line-height: 104px;
   text-align: right;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 72px;
@@ -600,7 +601,7 @@ html {
 }
 
 .MEET_THE_TEAM span {
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -624,7 +625,7 @@ figure {
   line-height: 104px;
   margin-top: -10.5px;
   text-align: left;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 70px;
   left: 25px;
@@ -663,7 +664,7 @@ figure {
   overflow: visible;
   white-space: nowrap;
   text-align: right;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -728,10 +729,10 @@ figure {
 }
 
 .brandind-head, .treasure-head, .treasure-sub-head, .branding-sub-head1, .branding-sub-head2 {
-  font-family: montserrat;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  opacity: 0.1;
-  font-size: 3.75rem;
+  opacity: 0.08;
+  font-size: 3.5rem;
   position: absolute;
 }
 
@@ -904,13 +905,12 @@ a#pills-home-tab:hover, a#pills-profile-tab:hover, a#pills-contact-tab:hover {
   border-style: none !important;
 }
 
-.article1 h2 {
+h2.display-4 {
   font-weight: 400 !important;
-  font-size: 3rem;
   color: #000000;
 }
 
-.article1 h2 span {
+h2.display-4 span {
   color: #FF2B06;
 }
 
@@ -982,22 +982,27 @@ a#pills-home-tab:hover, a#pills-profile-tab:hover, a#pills-contact-tab:hover {
           transform: translate(-70px, -40px) rotateZ(15deg);
 }
 
-.article2-3 {
+.article2-3-animation {
   margin-bottom: 30px;
 }
 
-.article2-3 .article2-3-title {
+.article2-3-animation .article2-3-title {
   color: #000000;
   font-weight: 400;
 }
 
-.article2-3 p {
+.article2-3-animation p {
   color: #989898;
   font-size: 15px;
   margin-bottom: 10px;
 }
 
-.article2-3 .article2-3-arrow {
+.article2-3-animation .btn {
+  display: contents;
+  margin-bottom: 12px;
+}
+
+.article2-3-animation .article2-3-arrow {
   color: #000;
   position: absolute;
   top: 20px;
@@ -1005,13 +1010,13 @@ a#pills-home-tab:hover, a#pills-profile-tab:hover, a#pills-contact-tab:hover {
   font-size: 1.2rem;
 }
 
-.article2-3 h5 {
+.article2-3-animation h5 {
   color: #989898;
   font-weight: 400;
   font-size: 12px;
 }
 
-.article2-3 h5 span {
+.article2-3-animation h5 span {
   margin: 20px 0px 0px 30px;
   color: #bdbdbd;
 }
@@ -1165,6 +1170,34 @@ a#pills-home-tab:hover, a#pills-profile-tab:hover, a#pills-contact-tab:hover {
   .recomm-animation:hover .article2-3-arrow {
     right: 50px !important;
   }
+}
+
+.side-articles-title {
+  color: #FF2B06;
+  margin-bottom: 15px;
+}
+
+#article-page {
+  left: -100%;
+  position: relative;
+  -webkit-transition: 1.5s ease-in-out;
+  transition: 1.5s ease-in-out;
+}
+
+#article-page h4 {
+  font-size: 1.1rem;
+}
+
+#article-page h4.writer {
+  margin-bottom: 20px;
+}
+
+#article-page .back-button a {
+  color: #000;
+  font-size: 1.1rem;
+  opacity: .25;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 body {
