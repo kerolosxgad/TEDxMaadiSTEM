@@ -7,7 +7,7 @@ document.getElementById("demo").innerHTML = d.getUTCFullYear();
 
 //TEDx logo on small devices
 if (window.matchMedia("(max-width: 1199px)").matches) {
-    document.getElementById("navbar-logo").src = "../images/TEDxLogo.png";
+    document.getElementById("navbar-logo").src = "images/TEDxLogo.png";
 } else {
     //navbar background style on scroll
     window.onscroll = function myFunction() {
@@ -17,10 +17,10 @@ if (window.matchMedia("(max-width: 1199px)").matches) {
         var navh = document.getElementById("navbar").offsetHeight;
 
         if (document.body.scrollTop > navh || document.documentElement.scrollTop > navh) {
-            document.getElementById("navbar-logo").src = "../images/TEDxLogo.png";
+            document.getElementById("navbar-logo").src = "images/TEDxLogo.png";
             document.getElementById("navbar").classList.add("scrolled");
         } else {
-            document.getElementById("navbar-logo").src = "../images/TEDxLogoLight.png";
+            document.getElementById("navbar-logo").src = "images/TEDxLogoLight.png";
             document.getElementById("navbar").classList.remove("scrolled");
         }
 
