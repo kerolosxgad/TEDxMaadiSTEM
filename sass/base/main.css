@@ -1204,6 +1204,10 @@ h2.display-4 span {
   margin-left: -15px;
 }
 
+#article-page h5 a {
+  color: #FF2B06;
+}
+
 @media screen and (max-width: 450px) {
   #article-page .article2-3-animation {
     margin-left: 0;
