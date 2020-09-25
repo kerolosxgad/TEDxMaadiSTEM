@@ -984,6 +984,7 @@ h2.display-4 span {
 
 .article2-3-animation {
   margin-bottom: 30px;
+  padding: 15px;
 }
 
 .article2-3-animation .article2-3-title {
@@ -1040,7 +1041,6 @@ h2.display-4 span {
   -webkit-box-shadow: 0px 0px 20px #bdbdbd;
           box-shadow: 0px 0px 20px #bdbdbd;
   border-radius: 20px;
-  padding: 10px 10px 20px 10px;
 }
 
 .article2-3-animation:hover .article2-3-arrow {
@@ -1198,6 +1198,19 @@ h2.display-4 span {
   opacity: .25;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+#article-page .article2-3-animation {
+  margin-left: -15px;
+}
+
+@media screen and (max-width: 450px) {
+  #article-page .article2-3-animation {
+    margin-left: 0;
+  }
+  #article-page h2 {
+    font-size: 2.25rem;
+  }
 }
 
 body {
