@@ -1,0 +1,103 @@
+/*The Main Scss File*/
+.navbar {
+    background: #fff !important;
+    transition: .5s ease-in-out;
+  }
+
+@media (max-width: 1199px) {
+    .navbar {
+        background: #000 !important;}
+    .nav-link{
+  color: #eee !important;
+}
+}
+.scrolled{
+    background: #000 !important;
+}
+
+.scrolled .nav-link{
+  color: #eee !important;
+}
+  
+  @media (max-width: 420px) {
+    .navbar-brand img{width: 200px !important; height: 52px !important;}
+  }
+  
+  .navbar .nav-link {
+    color: #eee;
+    font-weight: bold;
+    margin: 0 8px;
+    font-size: 13.5px;
+    text-transform: uppercase;
+    transition: 0.4s ease-in-out;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
+  .navbar .nav-link:after {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 2.5px;
+    background-color: #E62B1E;
+    content: "";
+    transform: scale(0);
+  }
+  .navbar .nav-link:hover {
+    color: #E62B1E !important;
+    transform: translateY(-3px);
+  }
+  .navbar .nav-link:hover:after {
+    transition: transform 0.4s;
+    transform: scale(1);
+  }
+  
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show > .nav-link {
+    color: #E62B1E !important;
+  }
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+  
+  /*start footer section*/
+  
+  footer{padding: 50px 0 20px; background: #000;}
+  
+  @media (max-width: 576px) {
+      footer .row > div{margin-bottom: 15px; text-align: center;}
+  }
+  
+  footer h4{color: #ccc; margin-bottom: 20px;}
+  
+  footer ul{list-style: none; padding-left: 0;}
+  
+  footer li{margin: 0 18px; 
+    display: inline;
+    letter-spacing: 0.8px;
+  }
+  
+  @media (max-width: 420px) {
+    footer li{margin: 0 5px; letter-spacing: .5px; font-size: 14px;}
+    footer i{margin-bottom: 0 !important;}
+  }
+  
+  footer i{
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  footer a, footer p{color: #676767;}
+  
+  footer a:hover{color: #ccc; text-decoration: none;}
+  
+  footer img{height: 75px !important;}
+  
+  footer hr{background-color: #aaa; margin-top: 1.8rem;}
+  
+  .rights{color: #aaa; margin-top: -5px; font-size: 13px;}
+  

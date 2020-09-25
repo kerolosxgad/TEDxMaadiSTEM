@@ -1,0 +1,196 @@
+html{scroll-behavior: smooth;}
+
+.ideas-worth-spreading{
+    margin-top: 120px;
+    .text{
+        width: 80%;
+        img{
+            position: absolute;
+            transition: .7s ease-in-out;
+            top: 20px;
+            left: 10px;
+            opacity: 0.85;
+            &:hover{
+                transform: scale(1.25);
+            }
+        }
+        h2{
+            font-size: 3.75rem;
+            margin-bottom: 20px;
+            font-weight: 400;
+            letter-spacing: 1.5px;
+        }
+        p{
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+        a{
+            color: $red;
+            text-decoration: none;
+            top: -10px;
+            position: relative;
+        }
+        
+    }
+    .inpage-links{
+        margin-top: 50px;
+        .media{
+            i{
+                width: 45px !important;
+                height: 45px;
+                border: 2px solid;
+                border-radius: 50%;
+                margin-bottom: 8px;
+                text-align: center;
+                line-height: 45px;
+                font-size: 1.4rem;
+                margin-right: 15px;
+                padding-left: 4px;
+                opacity: .6;
+                margin-top: 5px;
+            }
+            h6{
+                margin-top: -16px !important;
+                margin-bottom: 2px;
+            }
+            p{
+                opacity: 0.6;
+                font-weight: 600;
+            }
+        }
+        .media-href{
+            i{
+                color: $red;
+                opacity: 1;
+                width: 50px !important;
+                height: 50px;
+                line-height: 50px;
+                font-size: 1.5rem;
+                margin-right: 15px;
+                padding-left: 2px;
+                margin-left: -3px;
+                margin-top: 10px;
+                cursor: pointer;
+                transition: .5s ease-in-out;
+                &:hover{background-color: $red; color: #fff;}
+            }
+            h6{font-size: 1.75rem;}
+            p{opacity: .9;}
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .ideas-worth-spreading{
+      .text{
+          width: 100% !important;
+          img{top: 0;}
+          h2{
+            font-size: 2.75rem;
+            margin-left: 25px;
+        }
+      }
+      .inpage-links{
+          margin-top: 20px !important;
+      }
+    }
+}
+
+.what-is-tedx{
+    padding: 50px 0;
+    .text{
+        width: 80%;
+        img{
+            position: absolute;
+            transition: .7s ease-in-out;
+            top: -25px;
+            height: 130px;
+            left: 20px;
+            opacity: 0.85;
+            &:hover{
+                transform: scale(1.25);
+            }
+        }
+        h2{
+            font-size: 3.75rem;
+            margin-bottom: 20px;
+            font-weight: 400;
+            letter-spacing: 1.5px;
+        }
+        p{
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+        a{
+            color: $red;
+            text-decoration: none;
+            top: -10px;
+            position: relative;
+        }
+    }
+    .inpage-links{
+        margin-top: 20px;
+        .media{
+            i{
+                width: 45px !important;
+                height: 45px;
+                border: 2px solid;
+                border-radius: 50%;
+                margin-bottom: 8px;
+                text-align: center;
+                line-height: 45px;
+                font-size: 1.4rem;
+                margin-right: 15px;
+                padding-left: 4px;
+                opacity: .6;
+                margin-top: 5px;
+            }
+            h6{
+                margin-top: -16px !important;
+                margin-bottom: 2px;
+            }
+            p{
+                opacity: 0.6;
+                font-weight: 600;
+            }
+        }
+        .media-href{
+            i{
+                color: $red;
+                opacity: 1;
+                width: 50px !important;
+                height: 50px;
+                line-height: 50px;
+                font-size: 1.5rem;
+                margin-right: 15px;
+                padding-left: 2px;
+                margin-left: -3px;
+                margin-top: 10px;
+                cursor: pointer;
+                transition: .5s ease-in-out;
+                &:hover{background-color: $red; color: #fff;}
+            }
+            h6{font-size: 1.75rem;}
+            p{opacity: .9;}
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .what-is-tedx{
+        overflow-x: hidden;
+        .img-col{text-align: center !important; margin-top: -50px;}
+      .text{
+          width: 100% !important;
+          img{height: 110px !important; top: -7px !important;}
+          h2{
+            font-size: 2.75rem;
+            margin-left: 25px;
+            margin-top: 40px;
+        }
+      }
+      .media-href h6{
+          font-size: 1.35rem !important;
+      }
+    }
+}

@@ -1,0 +1,363 @@
+.articles-nav{
+  h5{
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+}
+
+p{
+  text-align: justify !important;
+}
+
+.nav-pills .nav-link {
+  font-size: 0.9rem;
+  border-radius: 10px !important;
+  color: $grey;
+  text-transform: uppercase;
+}
+
+a#pills-home-tab, a#pills-profile-tab, a#pills-contact-tab{
+  margin-right: $nav-margin;
+  font-weight: 600;
+  border-style: solid;
+  border-radius: 12px !important;
+  border-width: 2px;
+  border-color: $light-grey;
+  transition: 0.5s ease-in-out;
+}
+
+a#pills-home-tab:hover, a#pills-profile-tab:hover, a#pills-contact-tab:hover{
+  color: $black;
+  border-color: $black;
+
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff !important;
+  font-weight: 700 !important;
+  background-color: $red !important;
+  box-shadow: 0px 3px 10px $red;
+  margin-right: $nav-margin !important;
+  border-style: none !important;
+}
+
+h2.display-4{
+  font-weight: 400 !important;
+  color: $black;
+  
+  span{
+    color: $red;
+  }
+}
+
+.article1{
+
+  h4{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1rem;
+    
+    span{
+      color: $light-grey;
+      font-weight: 400;
+      margin-left: 20px;
+    }
+    
+  }
+
+  p{
+    color: $grey;
+    font-size: 15px;
+  }
+
+  
+  a{
+    text-decoration: none !important;
+    p{
+      color: $red;
+      font-weight: 600;
+      transition: 0.5s ease-in-out;
+    }
+  
+    p:hover{
+      font-size: 1.03rem;
+    }
+  
+    .fa-angle-right{
+      margin-left: 5px;
+      font-size: 1.1rem;
+    }
+  }
+}
+
+.articles-abs-title{
+  position: absolute;
+  top: -9px;
+  left: 100px;
+  font-weight: 700;
+  font-size: 2.5rem;
+  z-index: -1;
+  opacity: .2;
+  transition: 0.8s ease-in-out !important;
+}
+
+
+.articles-img{
+  width: 250px;
+  position: relative;
+  left: 80px;
+  z-index: 1;
+  transition: 0.8s ease-in-out;
+}
+
+
+.articles-abs:hover{
+  .articles-abs-title{
+    transform: translatey(-90px);
+  }
+
+  .articles-img{
+    transform: translate(-70px, -40px) rotateZ(15deg);
+  }
+}
+
+
+.article2-3-animation{
+
+  margin-bottom: 30px;
+  padding: 15px;
+
+  .article2-3-title{
+    color: $black;
+    font-weight: 400;
+  }
+  p{
+    color: $grey;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .btn{display: contents; margin-bottom: 12px;}
+
+  .article2-3-arrow{
+    color: #000; 
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    font-size: 1.2rem;
+  }
+
+  h5{
+    color: $grey;
+    font-weight: 400;
+    font-size: 12px;
+
+    span{
+      margin: 20px 0px 0px 30px;
+      color: $light-grey;
+    }
+  }
+}
+
+.article2-3-animation{
+  transition: 0.5s ease-in-out;
+  .article2-3-arrow{
+    transition: 0.5s ease-in-out;    
+  }
+
+  p{
+    transition: 0.5s ease-in-out;    
+  }
+
+}
+
+
+.article2-3-animation:hover{
+  box-shadow: 0px 0px 20px $light-grey;
+  border-radius: 20px;
+  .article2-3-arrow{
+    right: 30px;
+    top: 15px;
+  }
+}
+
+//toggle text in articles
+
+#myBtn, #myBtn2, #myBtn3{
+  padding-left: 0;
+    border: none;
+    color: red;
+    margin-top: -10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+#read-more-target, #read-more-target2, #read-more-target3, #read-more-target4, #read-more-target5 {
+  display: none;
+  transition: .5s ease-in-out;
+}
+
+@media screen and (max-width: 1100px){
+  .articles-img{
+    width: 200px;
+    left: 30px !important;
+  }
+
+  .articles-abs-title{
+    left: 50px;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .articles-img{
+    width: 170px;
+    top: 70px;
+    left: 65px !important;
+  }
+  .articles-abs-title{
+    top: 70px;
+    left: 80px;
+  }
+
+  .article1 h2{
+    font-size: 2.5rem !important;
+  }
+
+  .article2-3{
+    margin-bottom: 0px;
+  }
+
+  .article2-3-animation{
+    margin-bottom: 30px;
+  }
+
+}
+@media screen and (max-width: 767px){
+  a#pills-home-tab, a#pills-profile-tab, a#pills-contact-tab{
+    margin-right: 5px;
+    font-size: 12px;
+  }
+
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    margin-right: 5px !important;
+  }
+
+  .articles-img{
+    width: 180px;
+    left: 115px !important;
+    margin-bottom: 80px;
+  }
+
+  .articles-abs-title{
+    top: 20px;
+    left: 100px;
+  }
+
+  .articles-abs:hover{
+    .articles-abs-title{
+      transform: translate(-50px, -50px) !important;
+    }
+  }
+
+  .article2-3-animation{
+    margin-bottom: 30px;
+  }
+}
+
+
+@media screen and (max-width: 499px){
+
+  a#pills-home-tab, a#pills-profile-tab, a#pills-contact-tab{
+    margin-right: 5px;
+    font-size: 9px;
+    margin-bottom: 10px;
+  }
+
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    margin-right: 5px !important;
+    font-size: 12px !important;
+  }
+
+}
+
+@media screen and (max-width: 375px){
+
+  a#pills-home-tab, a#pills-profile-tab, a#pills-contact-tab{
+    width: 320px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    font-size: 17px !important;
+    font-weight: 400;
+  }
+
+  .articles-img{
+    left: 170px !important;
+    top: 35px;
+  }
+
+  .articles-abs-title{
+    top: 35px;
+    left: 195px;
+    font-size: 1.5rem !important;
+  }
+
+  .articles-abs:hover{
+    .articles-abs-title{
+      transform: translatex(-195px) !important;
+    }
+  }
+
+  .article2-3{
+    margin-top: 20px;
+  }
+
+  .article2-3-animation{
+      &:hover{
+        height: 80%;
+      }
+  }
+
+  .recomm-animation:hover{
+    height: 84%;
+
+    .article2-3-arrow{
+      right: 50px !important;
+    }
+  }
+
+}
+
+.side-articles-title{
+  color: $red;
+  margin-bottom: 15px;
+}
+
+#article-page{
+  // transform: translateX(-100%);
+  left: -100%;
+  position: relative;
+  transition: 1.5s ease-in-out;
+  h4{font-size: 1.1rem;}
+  h4.writer{margin-bottom: 20px;}
+  .back-button a{
+    color: #000;
+    font-size: 1.1rem;
+    opacity: .25;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .article2-3-animation{margin-left: -15px;}
+}
+@media screen and (max-width: 450px){
+  #article-page{
+    .article2-3-animation{margin-left: 0;}
+    h2{font-size: 2.25rem;}
+  }
+}
