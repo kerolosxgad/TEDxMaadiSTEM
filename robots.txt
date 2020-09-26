@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow: 
 
-Sitemap: https://www.stemegypt.net/sitemap.xml
+Sitemap: https://www.tedxyouthmaadistem.com/sitemap.xml
