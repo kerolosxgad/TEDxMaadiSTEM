@@ -31,7 +31,7 @@ input[type="text"]{
     border-color: $light-grey;
 }
 
-input[type="submit"]{
+button[type="submit"]{
     background-color: $red;
     width: 90%;
     border-radius: 10px;
